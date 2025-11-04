@@ -828,7 +828,7 @@ den_general_tuxen = {
 	}
 }
 
-den_general_wandel = {
+den_admiral_wandel = {
 
 	first_name = carl_frederick
 	last_name = wandel
@@ -850,7 +850,7 @@ den_general_wandel = {
 	}
 }
 
-den_general_kofoed_hansen = {
+den_admiral_kofoed_hansen = {
 
 	first_name = otto_joachim
 	last_name = kofoed_hansen
@@ -872,7 +872,7 @@ den_general_kofoed_hansen = {
 	}
 }
 
-den_general_meldal = {
+den_admiral_meldal = {
 
 	first_name = julius
 	last_name = meldal
@@ -894,7 +894,7 @@ den_general_meldal = {
 	}
 }
 
-den_general_bille = {
+den_admiral_bille = {
 
 	first_name = steen_andersen
 	last_name = bille
@@ -916,7 +916,7 @@ den_general_bille = {
 	}
 }
 
-den_general_meyer = {
+den_admiral_meyer = {
 
 	first_name = johan_anton
 	last_name = meyer
@@ -938,7 +938,7 @@ den_general_meyer = {
 	}
 }
 
-den_general_evers = {
+den_admiral_evers = {
 
 	first_name = anton
 	last_name = evers
@@ -960,7 +960,7 @@ den_general_evers = {
 	}
 }
 
-den_general_koch = {
+den_admiral_koch = {
 
 	first_name = hans
 	last_name = koch
@@ -978,6 +978,72 @@ den_general_koch = {
 		role = admiral
 		earliest_usage_date = 1864.1.1
 		latest_usage_date = 1899.1.1
+		chance = 75
+	}
+}
+
+den_admiral_rechnitzer = {
+
+	first_name = hjalmar
+	last_name = rechnitzer
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1872.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1953.1.1
+		chance = 75
+	}
+}
+
+den_admrial_briand_de_crevecoeur = {
+
+	first_name = emmanuel
+	last_name = briand_de_crevecoeur
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1918.1.1
+		latest_usage_date = 1960.1.1
+		chance = 75
+	}
+}
+
+den_general_with = {
+
+	first_name = erik
+	last_name = with
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1903.1.1
+		latest_usage_date = 1956.1.1
 		chance = 75
 	}
 }
