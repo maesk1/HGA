@@ -1041,7 +1041,7 @@ den_general_with = {
 				c:SCA ?= this
 			}
 		}
-		role = admiral
+		role = general
 		earliest_usage_date = 1903.1.1
 		latest_usage_date = 1956.1.1
 		chance = 75
