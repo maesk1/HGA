@@ -1304,15 +1304,3 @@ aus_admiral_pachner = {
 		chance = 75
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-

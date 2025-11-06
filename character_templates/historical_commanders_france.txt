@@ -1071,3 +1071,22 @@ fra_general_graziani = {
 		chance = 75
 	}
 }
+
+fra_general_pretelat = {
+	first_name = andre_gaston
+	last_name = pretelat
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1874.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1922.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}

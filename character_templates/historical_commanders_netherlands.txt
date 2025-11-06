@@ -931,3 +931,20 @@ net_general_rost_van_tonningen = {
 		chance = 75
 	}
 }
+
+net_general_van_der_vijver = {
+
+	first_name = johannes
+	last_name = van_der_vijver
+	historical = yes
+	culture = cu:dutch
+	female = no
+	birth_date = 1880.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:NET ?= this c:UNL ?= this } }
+		role = general
+		earliest_usage_date = 1925.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
