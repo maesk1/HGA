@@ -683,25 +683,25 @@ rus_admiral_nebogatov = {
 		chance = 75
 	}
 }
-rus_admiral_jessen = {
-    dna = dna_karl_jessen
-	first_name = Karl
-	last_name = Jessen
-	historical = yes
-	culture = cu:east_german
-	female = no
-	birth_date = 1852.1.26
-	commander_usage = {
-		country_trigger = {
-			exists = c:RUS
-			this = c:RUS
-		}
-		role = admiral
-		earliest_usage_date = 1882.1.1
-		latest_usage_date = 1922.1.1	
-		chance = 75
-	}
-}
+#rus_admiral_jessen = { #moved to baltic file
+#    dna = dna_karl_jessen
+#	first_name = Karl
+#	last_name = Jessen
+#	historical = yes
+#	culture = cu:east_german
+#	female = no
+#	birth_date = 1852.1.26
+#	commander_usage = {
+#		country_trigger = {
+#			exists = c:RUS
+#			this = c:RUS
+#		}
+#		role = admiral
+#		earliest_usage_date = 1882.1.1
+#		latest_usage_date = 1922.1.1
+#		chance = 75
+#	}
+#}
 rus_admiral_kanin = {
     dna = dna_vasily_kanin
 	first_name = Vasily
