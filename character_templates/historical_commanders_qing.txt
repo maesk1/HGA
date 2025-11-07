@@ -1544,3 +1544,60 @@ chi_general_changyou = { #刘长佑
 		chance = 75
 	}
 }
+
+chi_general_zheyuan = {
+	first_name = song
+	last_name = zheyuan
+	historical = yes
+	culture = cu:han
+	female = no
+	birth_date = 1885.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:CHI
+			this = c:CHI
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+chi_general_yuxiang = {
+	first_name = feng
+	last_name = yuxiang
+	historical = yes
+	culture = cu:han
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:CHI
+			this = c:CHI
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+chi_general_qian = {
+	first_name = cheng
+	last_name = qian
+	historical = yes
+	culture = cu:han
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:CHI
+			this = c:CHI
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
