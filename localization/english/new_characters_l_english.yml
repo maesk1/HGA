@@ -167,8 +167,7 @@
  von_Kirchbach_auf_Lauterbach: "von Kirchbach auf Lauterbach"
  Hermann: "Hermann"
  Kovess_von_Kovesshaza: "Kövess von Kövessháza"
- Rohr_von_Denta: "Rohr von Denta
-"
+ Rohr_von_Denta: "Rohr von Denta"
  von_Spaun: "von Spaun"
  Rudolf: "Rudolf"
  Montecuccoli: "Montecuccoli"
@@ -212,8 +211,7 @@
  Henri: "Henri"
  Guisan: "Guisan"
  Alphons: "Alphons"
- Maximilian_Pfyffer_von_Altishofen: "Alphons Maximilian Pfyffer von Altishofen
-"
+ Maximilian_Pfyffer_von_Altishofen: "Alphons Maximilian Pfyffer von Altishofen"
  Theophil: "Theophil"
  Sprecher_von_Bernegg: "Sprecher von Bernegg"
  Tasker: "Tasker"
@@ -1744,6 +1742,839 @@ ruchang: "Ruchang"
 prince: "Prince"
 zaixun: "Zaixun"
 
+maximilien: "Maximilien"
+de_neve_de_roden: "de Nève de Roden"
 
+vilhelm: "Vilhelm"
+gortz: "Gørtz"
 
+georg_daniel: "Georg Daniel"
+gerlach: "Gerlach"
 
+stephan: "Stephan"
+ankjaer: "Ankjær"
+
+frederik: "Frederik"
+bardenfleth: "Bardenfleth"
+
+palle: "Palle"
+berthelsen: "Berthelsen"
+
+ludolph_erasmi: "Ludolph Erasmi"
+fog: "Fog"
+
+harald: "Harald"
+glucksborg: "Glücksborg"
+
+marius: "Marius"
+hedemann: "Hedemann"
+
+arnold: "Arnold"
+kuhnel: "Kühnel"
+
+immanuel: "Immanuel"
+lembcke: "Lembcke"
+
+mauritz: "Mauritz"
+leschly: "Leschly"
+
+herman: "Herman"
+madsen: "Madsen"
+
+august: "August"
+tuxen: "Tuxen"
+
+carl_frederick: "Carl Frederick"
+wandel: "Wandel"
+
+otto_joachim: "Otto Joachim"
+kofoed_hansen: "Kofoed-Hansen"
+
+julius: "Julius"
+meldal: "Meldal"
+
+steen_andersen: "Steen Andersen"
+bille: "Bille"
+
+johan_anton: "Johan Anton"
+meyer: "Meyer"
+
+anton: "Anton"
+evers: "Evers"
+
+hans: "Hans"
+koch: "Koch"
+
+hjalmar: "Hjalmar"
+rechnitzer: "Rechnitzer"
+
+emmanuel: "Emmanuel"
+briand_de_crevecoeur: "Briand de Crévecoeur"
+
+erik: "Erik"
+with: "With"
+
+ramon: "Ramón"
+blanco_y_erenas: "Blanco y Erenas"
+
+basilio: "Basilio"
+augustin: "Augustín"
+
+felipe_alfau: "Felipe Alfau"
+mendoza: "Mendoza"
+
+diego: "Diego"
+de_los_rios_y_nicolau: "de los Ríos y Nicolau"
+
+joaquin_milans: "Joaquín Milans"
+del_bosch: "del Bosch"
+
+atanasio: "Atanasio"
+torres_martin: "Torres Martín"
+
+carlos: "Carlos"
+de_lossada: "de Lossada"
+
+william: "William"
+pakenham: "Pakenham"
+
+john: "John"
+fisher: "Fisher"
+
+john: "John"
+french: "French"
+
+horace: "Horace"
+smith_dorrien: "Smith-Dorrien"
+
+jean: "Jean"
+merveilleux_du_vignaux: "Merveilleux du Vignaux"
+
+lucien: "Lucien"
+lacaze: "Lacaze"
+
+amedee: "Amédée"
+bienaime: "Bienaimé"
+
+eugene: "Eugène"
+de_jonquieres: "de Jonquières"
+
+victor_constant: "Victor-Constant"
+michel: "Michel"
+
+jean_cesar: "Jean César"
+graziani: "Graziani"
+
+pyotr: "Pyotr"
+anjou: "Anjou"
+
+vasily: "Vasily"
+zavoyko: "Zavoyko"
+
+konstantin: "Konstantin"
+posyet: "Posyet"
+
+pyotr_petrovich: "Pyotr Petrovich"
+muravyov: "Muravyov"
+
+mikhail_fedorovich: "Mikhail Fedorovich"
+von_schultz: "von Schultz"
+
+andrey_semenovich: "Andrey Semenovich"
+maksimov: "Maksimov"
+
+yevfimiy: "Yevfimiy"
+putyatin: "Putyatin"
+
+fyodor: "Fyodor"
+radetsky: "Radetsky"
+
+rostislav_andreevich: "Rostislav Andreevich"
+fadeev: "Fadeev"
+
+mikhail: "Mikhail"
+dragomirov: "Dragomirov"
+
+nikolai: "Nikolai"
+stoletov: "Stoletov"
+
+woldemar: "Woldemar"
+freedericksz: "Freedericksz"
+
+illarion: "Illarion"
+vorontsov_dashkov: "Vorontsov-Dashkov"
+
+nikolai_matveevich: "Nikolai Matveevich"
+chikhachev: "Chikhachev"
+
+alexey_alekseevich: "Alexey Alekseevich"
+peschurov: "Peschurov"
+
+mikhail: "Mikhail"
+drozdovsky: "Drozdovsky"
+
+alexander: "Alexander"
+kutepov: "Kutepov"
+
+vladimir: "Vladimir"
+vitkovsky: "Vitkovsky"
+
+vladimir: "Vladimir"
+nikolay: "Nikolay"
+
+ivan: "Ivan"
+kononov: "Kononov"
+
+alexander: "Alexander"
+bubnov: "Bubnov"
+
+haakon_ditlev: "Haakon Ditlev"
+lowzow: "Lowzow"
+
+august_geelmuyden: "August Geelmuyden"
+sporck: "Spørck"
+
+johan_henrik: "Johan Henrik"
+sporck: "Spørck"
+
+hans_vilhelm: "Hans Vilhelm"
+keilhau: "Keilhau"
+
+carl_gustav: "Carl Gustav"
+fleischer: "Fleischer"
+
+karl: "Karl"
+bull: "Bull"
+
+hans: "Hans"
+raeder: "Ræder"
+
+alexander_bretteville: "Alexander Bretteville"
+overgaard: "Øvergaard"
+
+peter_christian: "Peter Christian"
+petersen: "Petersen"
+
+jakob: "Jakob"
+von_der_lippe: "von der Lippe"
+
+henrik_steffens: "Henrik Steffens"
+hagerup: "Hagerup"
+
+elias: "Elias"
+corneliussen: "Corneliussen"
+
+jochum_nicolay: "Jochum Nicolay"
+muller: "Müller"
+
+jacob_lerche: "Jacob Lerche"
+johansen: "Johansen"
+
+rasmus_andreas: "Rasmus Andreas"
+knap: "Knap"
+
+johannes: "Johannes"
+smith_johannsen: "Smith-Johannsen"
+
+joseph: "Joseph"
+wergeland: "Wergeland"
+
+johannes: "Johannes"
+sejersted: "Sejersted"
+
+jens: "Jens"
+bratlie: "Bratlie"
+
+ivar: "Ivar"
+aavatsmark: "Aavatsmark"
+
+jacob_hvinden: "Jacob Hvinden"
+haug: "Haug"
+
+johannes: "Johannes"
+van_der_vijver: "van der Vijver"
+
+andre_gaston: "André-Gaston"
+pretelat: "Prételat"
+
+lin: "Lin"
+jianzhang: "Jianzhang"
+
+yang: "Yang"
+shuzhuang: "Shuzhuang"
+
+chen: "Chen"
+jiliang: "Jiliang"
+
+shen: "Shen"
+honglie: "Honglie"
+
+peng: "Peng"
+yulin: "Yulin"
+
+liu: "Liu"
+changyou: "Changyou"
+
+paul: "Paul"
+von_rennenkampf: "von Rennenkampf"
+
+aleksander: "Aleksander"
+tonisson: "Tõnisson"
+
+paul: "Paul"
+lill: "Lill"
+
+gustav: "Gustav"
+jonson: "Jonson"
+
+janis: "Jānis"
+balodis: "Balodis"
+
+martins: "Mārtiņš"
+penikis: "Peniķis"
+
+silvestras: "Silvestras"
+zukauskas: "Žukauskas"
+
+jonas: "Jonas"
+galvydis_bykauskas: "Galvydis-Bykauskas"
+
+pranas: "Pranas"
+liatukas: "Liatukas"
+
+friedrich: "Friedrich"
+von_berg: "von Berg"
+
+eduard: "Eduard"
+totleben: "Totleben"
+
+alexander: "Alexander"
+von_benckendorff: "von Benckendorff"
+
+karl_gustav: "Karl Gustav"
+von_staal: "von Staal"
+
+paul_andreas: "Paul Andreas"
+von_rennenkampf: "von Rennenkampf"
+
+grigory: "Grigory"
+zass: "Zass"
+
+alexander: "Alexander"
+von_guldenstubbe: "von Güldenstubbe"
+
+nikolay: "Nikolay"
+kridener: "von Kridener"
+
+pontus: "Pontus"
+brevern_de_la_gardie: "Brevern-de la Gardie"
+
+peter: "Peter"
+von_baranoff: "von Baranoff"
+
+alexander: "Alexander"
+von_wrangell: "von Wrangell"
+
+alexander: "Alexander"
+barclay_de_tolly_weymarn: "Barclay de Tolly-Weymarn"
+
+vasily: "Vasily"
+geyman: "Geyman"
+
+vladimir: "Vladimir"
+sukhomlinov: "Sukhomlinov"
+
+michael: "Michael"
+von_reineke: "von Reineke"
+
+dmitry_gustavovich: "Dmitry Gustavovich"
+von_folkersahm: "von Fölkersahm"
+
+alexander: "Alexander"
+von_lieven: "von Lieven"
+
+johan: "Johan"
+pitka: "Pitka"
+
+hermann: "Hermann"
+salza: "Salza"
+
+archibald: "Archibald"
+von_keyserling: "von Keyserling"
+
+antanas: "Antanas"
+kaskelis: "Kaškelis"
+
+hans_william: "Hans William"
+von Fersen: "von Fersen"
+
+georg: "Georg"
+von_bock: "von Bock"
+
+song: "Song"
+zheyuan: "Zheyuan"
+
+feng: "Feng"
+yuxiang: "Yuxiang"
+
+cheng: "Cheng"
+qian: "Qian"
+
+heinz: "Heinz"
+guderian: "Guderian"
+
+gerd: "Gerd"
+von_rundstedt: "von Rundstedt"
+
+gunther: "Günther"
+von_kluge: "von Kluge"
+
+hermann: "Hermann"
+von_eichhorn: "von Eichhorn"
+
+kurt: "Kurt"
+von_hammerstein_equord: "von Hammerstein-Equord"
+
+karl_wilhelm: "Karl Wilhelm"
+von_heideck: "von Heideck"
+
+oskar: "Oskar"
+von_xylander: "von Xylander"
+
+eduard: "Eduard"
+von_kallee: "von Kallee"
+
+berthold: "Berthold"
+von_deimling: "von Deimling"
+
+rolf: "Rolf"
+carls: "Carls"
+
+erich: "Erich"
+raeder: "Raeder"
+
+alfred: "Alfred"
+saalwachter: "Saalwächter"
+
+hermann: "Hermann"
+bauer: "Bauer"
+
+alan: "Alan"
+brooke: "Brooke"
+
+bernard: "Bernard"
+montgomery: "Montgomery"
+
+edmund: "Edmund"
+ironside: "Ironside"
+
+john: "John"
+vereker: "Vereker"
+
+andrew: "Andrew"
+cunningham: "Cunningham"
+
+john: "John"
+tovey: "Tovey"
+
+james: "James"
+somerville: "Somerville"
+
+alphonse_joseph: "Alphonse Joseph"
+georges: "Georges"
+
+maurice: "Maurice"
+gamelin: "Gamelin"
+
+robert: "Robert"
+altmayer: "Altmayer"
+
+aubert: "Aubert"
+frere: "Frère"
+
+jean_marie_charles: "Jean-Marie Charles"
+abrial: "Abrial"
+
+jean: "Jean"
+de_laborde: "de Laborde"
+
+francois: "François"
+darlan: "Darlan"
+
+godfried: "Godfried"
+van_voorst_tot_voorst: "van Voorst tot Voorst"
+
+umberto: "Umberto"
+bucci: "Bucci"
+
+domenico: "Domenico"
+cavagnari: "Cavagnari"
+
+ugo: "Ugo"
+cavallero: "Cavallero"
+
+vittorio: "Vittorio"
+ambrosio: "Ambrosio"
+
+luigi: "Luigi"
+cadorna: "Cadorna"
+
+armando: "Armando"
+diaz: "Diaz"
+
+alberico: "Alberico"
+albricci: "Albricci"
+
+carlo: "Carlo"
+avallone: "Avallone"
+
+ernesto: "Ernesto"
+resbitero: "Presbitero"
+
+giuseppe: "Giuseppe"
+sirianni: "Sirianni"
+
+luigi: "Luigi"
+mezzacapo: "Mezzacapo"
+
+enrico: "Enrico"
+cosenz: "Cosenz"
+
+achille: "Achille"
+afan_de_rivera: "Afan de Rivera"
+
+carlo: "Carlo"
+geloso: "Geloso"
+
+napoleone: "Napoleone"
+scrugli: "Scrugli"
+
+enrico: "Enrico"
+accinni: "Accinni"
+
+benno: "Benno"
+von_millenkovich: "von Millenkovich"
+
+borivoj: "Bořivoj"
+radon: "Radoň"
+
+alfred: "Alfred"
+jansa: "Jansa"
+
+eduard: "Eduard"
+barger: "Barger"
+
+ludwig: "Ludwig"
+von_eimannsberger: "von Eimannsberger"
+
+geza_lukachich: "Géza Lukachich"
+von_somorja: "von Somorja"
+
+ernst: "Ernst"
+horsetzky_von_hornthal: "Horsetzky von Hornthal"
+
+franz_conrad: "Franz Conrad"
+von_hotzendorf: "von Hötzendorf"
+
+arthur: "Arthur"
+von_bolfras: "von Bolfras"
+
+adolf: "Adolf"
+von_boog: "von Boog"
+
+rudolf: "Rudolf"
+vidossich: "Vidossich"
+
+joseph: "Joseph"
+philippovich_von_philippsberg: "Philippovich von Philippsberg"
+
+ludwig: "Ludwig"
+folliot_de_crenneville: "Folliot de Crenneville"
+
+anton: "Anton"
+dobrzensky_von_dobrzenitz: "Dobrženský von Dobrženitz"
+
+olof: "Olof"
+thornell: "Thörnell"
+
+ernst: "Ernst"
+af_klercker: "af Klercker"
+
+rudolf: "Rudolf"
+singule: "Singule"
+
+george: "George"
+marshall: "Marshall"
+
+ernest: "Ernest"
+king: "King"
+
+william: "William"
+halsey: "Halsey"
+
+lesley: "Lesley"
+mcnair: "McNair"
+
+courtney: "Courtney"
+hodges: "Hodges"
+
+david: "David"
+twiggs: "Twiggs"
+
+albert_sidney: "Albert Sidney"
+johnston: "Johnston"
+
+henry: "Henry"
+halleck: "Halleck"
+
+robert: "Robert"
+anderson: "Anderson"
+
+napoleon_bonaparte: "Napoleon Bonaparte"
+buford: "Buford"
+
+don_carlos: "Don Carlos"
+buell: "Buell"
+
+samuel_francis: "Samuel Francis"
+du_pont: "Du Pont"
+
+stephen_clegg: "Stephen Clegg"
+rowan: "Rowan"
+
+john: "John"
+dahlgren: "Dahlgren"
+
+john_lorimer: "John Lorimer"
+worden: "Worden"
+
+thornton: "Thornton"
+jenkins: "Jenkins"
+
+james_edward: "James Edward"
+jouett: "Jouett"
+
+robert_wilson: "Robert Wilson"
+shufeldt: "Shufeldt"
+
+george: "George"
+belknap: "Belknap"
+
+joseph: "Joseph"
+skerrett: "Skerrett"
+
+gonzalo: "Gonzalo"
+queipo_de_llano: "Queipo de Llano"
+
+miguel: "Miguel"
+cabanellas: "Cabanellas"
+
+miguel: "Miguel"
+ponte: "Ponte"
+
+juan: "Juan"
+vigon: "Vigón"
+
+mateo: "Mateo"
+garcia_de_los_reyes: "García de los Reyes"
+
+manuel: "Manuel"
+ruiz_de_atauri: "Ruiz de Atauri"
+
+rafael: "Rafael"
+estrada_y_arnaiz: "Estrada y Arnáiz"
+
+alfonso: "Alfonso"
+arriaga_adam: "Arriaga Adam"
+
+mildmay: "Mildmay"
+fane: "Fane"
+
+james_yorke: "James Yorke"
+scarlett: "Scarlett"
+
+william: "William"
+codrington: "Codrington"
+
+fenwick: "Fenwick"
+williams: "Williams"
+
+george: "George"
+brown: "Brown"
+
+james: "James"
+simpson: "Simpson"
+
+arthur_james: "Arthur James"
+herbert: "Herbert"
+
+arthur: "Arthur"
+sandbach: "Sandbach"
+
+michael: "Michael"
+seymour: "Seymour"
+
+alexander: "Alexander"
+milne: "Milne"
+
+henry: "Henry"
+keppel: "Keppel"
+
+thomas: "Thomas"
+symonds: "Symonds"
+
+george: "George"
+sartorius: "Sartorius"
+
+henry: "Henry"
+bruce: "Bruce"
+
+robert_lambert: "Robert Lambert"
+baynes: "Baynes"
+
+max: "Max"
+horton: "Horton"
+
+emile: "Émile"
+herbillon: "Herbillon"
+
+nicolas: "Nicolas"
+changarnier: "Changarnier"
+
+achille: "Achille"
+baraguey_d_hilliers: "Baraguey d'Hilliers"
+
+joseph: "Joseph"
+vinoy: "Vinoy"
+
+joseph: "Joseph"
+vincendon: "Vincendon"
+
+alexandre_ferdinand: "Alexandre Ferdinand"
+parseval_deschenes: "Parseval-Deschenes"
+
+abel_aubert: "Abel Aubert"
+du_petit_thouars: "du Petit-Thouars"
+
+ferdinand_alphonse: "Ferdinand-Alphonse"
+hamelin: "Hamelin"
+
+louis: "Louis"
+dubourdieu: "Dubourdieu"
+
+willem: "Willem"
+roell: "Roëll"
+
+gerard_benjamin: "Gerard Benjamin"
+noothoven_van_goor: "Noothoven van Goor"
+
+jouwert: "Jouwert"
+andreae: "Andreae"
+
+herman: "Herman"
+coops: "Coops"
+
+jacques: "Jacques"
+sweerts_de_landas_wyborgh: "Sweerts de Landas Wyborgh"
+
+pierre_gustave: "Pierre-Gustave"
+roze: "Roze"
+
+frederik_jan: "Frederik Jan"
+stokhuyzen: "Stokhuyzen"
+
+bart: "Bart"
+schreuders: "Schreuders"
+
+prudent: "Prudent"
+nuyten: "Nuyten"
+
+emile: "Émile"
+galet: "Galet"
+
+anton: "Anton"
+denikin: "Denikin"
+
+mikhail_: "Mikhail"
+gorchakov: "Gorchakov"
+
+nikolay: "Nikolay"
+muravyov_karsky: "Muravyov-Karsky"
+
+nikolai: "Nikolai"
+sukhozanet: "Sukhozanet"
+
+sergey: "Sergey"
+ivashentsov: "Ivashentsov"
+
+pyotr: "Pyotr"
+stepanov: "Stepanov"
+
+nikolai: "Nikolai"
+stolpakov: "Stolpakov"
+
+stepan: "Stepan"
+khrushchev: "Khrushchev"
+
+pavel: "Pavel"
+yukharin: "Yukharin"
+
+fyodor: "fyodor"
+litke: "Litke"
+
+victor: "Victor"
+bezuar: "Bezuar"
+
+yakov: "Yakov"
+hildebrandt: "Hildebrandt"
+
+alexey: "Alexey"
+alexandrovi: "Alexandrovi"
+
+nikolai: "Nikolai"
+matusevich: "Matusevich"
+
+konstantin: "Konstantin"
+istomin: "Istomin"
+
+johann_franz: "Johann Franz"
+von_schaffgotsch: "von Schaffgotsch"
+
+franz: "Franz"
+von_hauslab: "von Hauslab"
+
+ludwig: "Ludwig"
+von_der_tann_rathsamhausen: "von der Tann-Rathsamhausen"
+
+karl_friedrich: "Karl Friedrich"
+von_steinmetz: "von Steinmetz"
+
+erwin: "Erwin"
+von_manteuffel: "von Manteuffel"
+
+konstantin_bernhard: "Konstantin Bernhard"
+von_voigts_rhetz: "von Voigts-Rhetz"
+
+august_karl: "August Karl"
+von_goeben: "von Goeben"
+
+eduard: "Eduard"
+von_fransecky: "von Fransecky"
+
+hippolyte: "Hippolyte"
+de_looz_corswarem: "de Looz-Corswarem"
+
+antonin: "Antonin"
+de_selliers_de_moranville: "de Selliers de Moranville"
+
+alexis: "Alexis"
+eenens: "Eenens"
+
+bruno: "Bruno"
+renard: "Renard"
+
+charles: "Charles"
+rye: "Rye"
+
+godfred: "Godfred"
+hansen: "Hansen"

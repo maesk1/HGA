@@ -1462,4 +1462,257 @@ spa_admiral_magaz = {
 	}
 }
 
+spa_general_blanco_y_erenas = {
 
+	first_name = ramon
+	last_name = blanco_y_erenas
+	historical = yes
+	culture = cu:basque
+	female = no
+	birth_date = 1833.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = general
+		earliest_usage_date = 1858.1.1
+		latest_usage_date = 1897.1.1
+		chance = 75
+	}
+}
+
+spa_general_augustin = {
+
+	first_name = basilio
+	last_name = augustin
+	historical = yes
+	culture = cu:spanish
+	female = no
+	birth_date = 1840.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = general
+		earliest_usage_date = 1870.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+
+spa_general_mendoza = {
+
+	first_name = felipe_alfau
+	last_name = mendoza
+	historical = yes
+	culture = cu:spanish
+	female = no
+	birth_date = 1845.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = general
+		earliest_usage_date = 1875.1.1
+		latest_usage_date = 1915.1.1
+		chance = 75
+	}
+}
+
+spa_general_de_los_rios_y_nicolau = {
+
+	first_name = diego
+	last_name = de_los_rios_y_nicolau
+	historical = yes
+	culture = cu:spanish
+	female = no
+	birth_date = 1850.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+spa_general_del_bosch = {
+
+	first_name = joaquin_milans
+	last_name = del_bosch
+	historical = yes
+	culture = cu:catalan
+	female = no
+	birth_date = 1854.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = general
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}
+
+spa_general_torres_martin = {
+
+	first_name = atanasio
+	last_name = torres_martin
+	historical = yes
+	culture = cu:spanish
+	female = no
+	birth_date = 1863.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = general
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1930.1.1
+		chance = 75
+	}
+}
+
+spa_general_de_lossada = {
+
+	first_name = carlos
+	last_name = de_lossada
+	historical = yes
+	culture = cu:spanish
+	female = no
+	birth_date = 1862.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = general
+		earliest_usage_date = 1892.1.1
+		latest_usage_date = 1935.1.1
+		chance = 75
+	}
+}
+
+spa_general_queipo_de_llano = {
+
+	first_name = gonzalo
+	last_name = queipo_de_llano
+	historical = yes
+	culture = cu:spanish
+	female = no
+	birth_date = 1875.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = general
+		earliest_usage_date = 1915.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+spa_general_cabanellas = {
+
+	first_name = miguel
+	last_name = cabanellas
+	historical = yes
+	culture = cu:spanish
+	female = no
+	birth_date = 1872.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = general
+		earliest_usage_date = 1915.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+spa_general_ponte = {
+
+	first_name = miguel
+	last_name = ponte
+	historical = yes
+	culture = cu:spanish
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+spa_general_vigon = {
+
+	first_name = juan
+	last_name = vigon
+	historical = yes
+	culture = cu:spanish
+	female = no
+	birth_date = 1880.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+spa_admiral_garcia_de_los_reyes = {
+
+	first_name = mateo
+	last_name = garcia_de_los_reyes
+	historical = yes
+	culture = cu:spanish
+	female = no
+	birth_date = 1872.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = admiral
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1935.1.1
+		chance = 75
+	}
+}
+
+spa_admiral_ruiz_de_atauri = {
+
+	first_name = manuel
+	last_name = ruiz_de_atauri
+	historical = yes
+	culture = cu:spanish
+	female = no
+	birth_date = 1875.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = admiral
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+
+spa_admiral_estrada_y_arnaiz = {
+
+	first_name = rafael
+	last_name = estrada_y_arnaiz
+	historical = yes
+	culture = cu:galician
+	female = no
+	birth_date = 1884.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+spa_admiral_arriaga_adam = {
+
+	first_name = alfonso
+	last_name = arriaga_adam
+	historical = yes
+	culture = cu:spanish
+	female = no
+	birth_date = 1883.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:SPA ?= this c:IBE ?= this } }
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}

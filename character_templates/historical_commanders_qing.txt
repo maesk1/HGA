@@ -1442,3 +1442,162 @@ chi_admiral_prince_zaixun = {
 	}
 }
 
+chi_admiral_jianzhang = { #林建章
+
+	first_name = lin
+	last_name = jianzhang
+	historical = yes
+	culture = cu:han
+	female = no
+	birth_date = 1874.1.1
+	commander_usage = {
+		country_trigger = { exists = c:CHI this = c:CHI }
+		role = admiral
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1935.1.1
+		chance = 75
+	}
+}
+
+chi_admiral_shuzhuang = { #楊樹莊
+
+	first_name = yang
+	last_name = shuzhuang
+	historical = yes
+	culture = cu:han
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+		country_trigger = { exists = c:CHI this = c:CHI }
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+chi_admiral_jiliang = { #陈季良
+
+	first_name = chen
+	last_name = jiliang
+	historical = yes
+	culture = cu:han
+	female = no
+	birth_date = 1883.1.1
+	commander_usage = {
+		country_trigger = { exists = c:CHI this = c:CHI }
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+chi_admiral_honglie = { #沈鴻烈
+
+	first_name = shen
+	last_name = honglie
+	historical = yes
+	culture = cu:han
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+		country_trigger = { exists = c:CHI this = c:CHI }
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+
+chi_admiral_yulin = { #彭玉麟
+
+	first_name = peng
+	last_name = yulin
+	historical = yes
+	culture = cu:han
+	female = no
+	birth_date = 1817.1.1
+	commander_usage = {
+		country_trigger = { exists = c:CHI this = c:CHI }
+		role = admiral
+		earliest_usage_date = 1853.1.1
+		latest_usage_date = 1887.1.1
+		chance = 75
+	}
+}
+
+chi_general_changyou = { #刘长佑
+
+	first_name = liu
+	last_name = changyou
+	historical = yes
+	culture = cu:han
+	female = no
+	birth_date = 1818.1.1
+	commander_usage = {
+		country_trigger = { exists = c:CHI this = c:CHI }
+		role = general
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1887.1.1
+		chance = 75
+	}
+}
+
+chi_general_zheyuan = {
+	first_name = song
+	last_name = zheyuan
+	historical = yes
+	culture = cu:han
+	female = no
+	birth_date = 1885.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:CHI
+			this = c:CHI
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+chi_general_yuxiang = {
+	first_name = feng
+	last_name = yuxiang
+	historical = yes
+	culture = cu:han
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:CHI
+			this = c:CHI
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+chi_general_qian = {
+	first_name = cheng
+	last_name = qian
+	historical = yes
+	culture = cu:han
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:CHI
+			this = c:CHI
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}

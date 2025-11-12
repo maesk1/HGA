@@ -13,8 +13,8 @@ net_general_winkelman = {
 			this = c:NET
 		}
 		role = general
-		earliest_usage_date = 1906.1.1
-		latest_usage_date = 1930.1.1	
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
 		chance = 75
 	}
 }
@@ -928,6 +928,142 @@ net_general_rost_van_tonningen = {
 		role = general
 		earliest_usage_date = 1880.1.1
 		latest_usage_date = 1932.1.1
+		chance = 75
+	}
+}
+
+net_general_van_der_vijver = {
+
+	first_name = johannes
+	last_name = van_der_vijver
+	historical = yes
+	culture = cu:dutch
+	female = no
+	birth_date = 1880.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:NET ?= this c:UNL ?= this } }
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+net_general_van_voorst_tot_voorst = {
+
+	first_name = godfried
+	last_name = van_voorst_tot_voorst
+	historical = yes
+	culture = cu:dutch
+	female = no
+	birth_date = 1880.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:NET ?= this c:UNL ?= this } }
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+net_general_noothoven_van_goor = {
+
+	first_name = gerard_benjamin
+	last_name = noothoven_van_goor
+	historical = yes
+	culture = cu:dutch
+	female = no
+	birth_date = 1874.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:NET ?= this c:UNL ?= this } }
+		role = general
+		earliest_usage_date = 1915.1.1
+		latest_usage_date = 1945.1.1
+		chance = 75
+	}
+}
+
+net_admiral_andreae = {
+
+	first_name = jouwert
+	last_name = andreae
+	historical = yes
+	culture = cu:dutch
+	female = no
+	birth_date = 1812.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:NET ?= this c:UNL ?= this } }
+		role = admiral
+		earliest_usage_date = 1845.1.1
+		latest_usage_date = 1875.1.1
+		chance = 75
+	}
+}
+
+net_admiral_coops = {
+
+	first_name = herman
+	last_name = coops
+	historical = yes
+	culture = cu:dutch
+	female = no
+	birth_date = 1793.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:NET ?= this c:UNL ?= this } }
+		role = admiral
+		earliest_usage_date = 1837.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+
+net_admiral_sweerts_de_landas_wyborgh = {
+
+	first_name = jacques
+	last_name = sweerts_de_landas_wyborgh
+	historical = yes
+	culture = cu:dutch
+	female = no
+	birth_date = 1851.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:NET ?= this c:UNL ?= this } }
+		role = admiral
+		earliest_usage_date = 1882.1.1
+		latest_usage_date = 1912.1.1
+		chance = 75
+	}
+}
+
+net_admiral_stokhuyzen = {
+
+	first_name = frederik_jan
+	last_name = stokhuyzen
+	historical = yes
+	culture = cu:dutch
+	female = no
+	birth_date = 1842.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:NET ?= this c:UNL ?= this } }
+		role = admiral
+		earliest_usage_date = 1872.1.1
+		latest_usage_date = 1905.1.1
+		chance = 75
+	}
+}
+
+net_admiral_schreuders = {
+
+	first_name = bart
+	last_name = schreuders
+	historical = yes
+	culture = cu:dutch
+	female = no
+	birth_date = 1870.1.1
+	commander_usage = {
+		country_trigger = { OR = { c:NET ?= this c:UNL ?= this } }
+		role = admiral
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1940.1.1
 		chance = 75
 	}
 }

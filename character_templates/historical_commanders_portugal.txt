@@ -15,7 +15,7 @@ por_general_abreu = {
 		chance = 75
 	}
 }
-	por_general_rosado = {
+por_general_rosado = {
 	dna = dna_tomas_rosado
 	first_name = Tomas_Antonio
 	last_name = Garcia_Rosado

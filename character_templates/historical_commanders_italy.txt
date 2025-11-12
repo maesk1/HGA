@@ -551,7 +551,12 @@ sic_general_di_giorgio = {
 	female = no
 	birth_date = 1867.1.1
 	commander_usage = {
-		country_trigger = { exists = c:SIC }
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SIC this = c:SIC }
+				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA }
+			}
+		}
 		role = general
 		earliest_usage_date = 1895.1.1
 		latest_usage_date = 1947.1.1
@@ -578,7 +583,18 @@ sic_general_ameglio = {
 	culture = cu:south_italian
 	female = no
 	birth_date = 1854.1.1
-	commander_usage = { country_trigger = { exists = c:SIC } role = general earliest_usage_date = 1882.1.1 latest_usage_date = 1934.1.1 chance = 75 }
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SIC this = c:SIC }
+				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA }
+			}
+		}
+		role = general
+		earliest_usage_date = 1882.1.1
+		latest_usage_date = 1934.1.1
+		chance = 75
+	}
 }
 
 sar_general_zupelli = {
@@ -591,7 +607,7 @@ sar_general_zupelli = {
 	birth_date = 1859.1.1
 	commander_usage = { country_trigger = { OR = { AND = { exists = c:SAR this = c:SAR } AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } } } } role = general earliest_usage_date = 1887.1.1 latest_usage_date = 1939.1.1 chance = 75 }
 
-	sar_admiral_pellion_di_persano = {
+sar_admiral_pellion_di_persano = {
 
 	first_name = carlo
 	last_name = pellion_di_persano
@@ -602,8 +618,16 @@ sar_general_zupelli = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -624,8 +648,16 @@ sar_admiral_aubry = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -646,8 +678,16 @@ sar_admiral_faravelli = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -668,8 +708,16 @@ sic_admiral_acton_alfredo = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SIC this = c:SIC }
-				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA }
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
 			}
 		}
 		role = admiral
@@ -690,8 +738,16 @@ sar_admiral_amedeo = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -712,8 +768,16 @@ sar_admiral_angioletti = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -734,8 +798,16 @@ sic_admiral_acton_ferdinando = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SIC this = c:SIC }
-				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA }
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
 			}
 		}
 		role = admiral
@@ -756,8 +828,16 @@ sar_admiral_albini = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -778,8 +858,16 @@ sar_admiral_amero_d_aste = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -800,8 +888,16 @@ sar_admiral_bernotti = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -822,8 +918,16 @@ sar_admiral_cagni = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -844,8 +948,16 @@ sar_admiral_campioni = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -866,8 +978,16 @@ sar_admiral_canevaro = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -888,8 +1008,16 @@ sar_admiral_del_santo = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -910,10 +1038,19 @@ sar_admiral_di_giamberardino = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
+
 		role = admiral
 		earliest_usage_date = 1909.1.1
 		latest_usage_date = 1961.1.1
@@ -932,8 +1069,16 @@ sar_admiral_di_negro = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -954,8 +1099,16 @@ sic_admiral_de_feo = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SIC this = c:SIC }
-				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA }
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
 			}
 		}
 		role = admiral
@@ -976,8 +1129,16 @@ sic_admiral_leonardi_cattolica = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SIC this = c:SIC }
-				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA }
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
 			}
 		}
 		role = admiral
@@ -998,8 +1159,16 @@ sar_admiral_maraghini = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -1017,11 +1186,18 @@ sar_admiral_millo = {
 	culture = cu:north_italian
 	female = no
 	birth_date = 1865.1.1
-	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -1042,8 +1218,16 @@ sar_admiral_mirabello = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -1064,8 +1248,16 @@ sic_admiral_paladini = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SIC this = c:SIC }
-				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA }
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
 			}
 		}
 		role = admiral
@@ -1086,8 +1278,16 @@ sic_admiral_palumbo = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SIC this = c:SIC }
-				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA }
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
 			}
 		}
 		role = admiral
@@ -1108,8 +1308,16 @@ sar_admiral_provana_del_sabbione = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -1130,8 +1338,16 @@ sic_admiral_rizzo = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SIC this = c:SIC }
-				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA }
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
 			}
 		}
 		role = admiral
@@ -1152,8 +1368,16 @@ sar_admiral_saint_bon = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -1174,8 +1398,16 @@ sar_admiral_di_savoia = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -1196,8 +1428,16 @@ sar_admiral_triangi_di_maderno_e_laces = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
@@ -1218,8 +1458,16 @@ sic_admiral_vacca = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SIC this = c:SIC }
-				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA }
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
 			}
 		}
 		role = admiral
@@ -1240,13 +1488,501 @@ sar_admiral_viale = {
 	commander_usage = {
 		country_trigger = {
 			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
 			}
 		}
 		role = admiral
 		earliest_usage_date = 1879.1.1
 		latest_usage_date = 1931.1.1
+		chance = 75
+	}
+}
+
+sic_admiral_bucci = {
+
+	first_name = umberto
+	last_name = bucci
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1877.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+sar_admiral_cavagnari = {
+
+	first_name = domenico
+	last_name = cavagnari
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1876.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1918.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+sar_general_cavallero = {
+
+	first_name = ugo
+	last_name = cavallero
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1880.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+sar_general_ambrosio = {
+
+	first_name = vittorio
+	last_name = ambrosio
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1879.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+sar_general_cadorna2 = {
+
+	first_name = luigi
+	last_name = cadorna
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1850.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+sic_general_diaz = {
+
+	first_name = armando
+	last_name = diaz
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1861.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1930.1.1
+		chance = 75
+	}
+}
+
+sar_general_albricci = {
+
+	first_name = alberico
+	last_name = albricci
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1864.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1935.1.1
+		chance = 75
+	}
+}
+
+sic_admiral_avallone = {
+
+	first_name = carlo
+	last_name = avallone
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1850.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+sar_admiral_resbitero = {
+
+	first_name = rnesto
+	last_name = resbitero
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1855.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+sar_admiral_sirianni = {
+
+	first_name = giuseppe
+	last_name = sirianni
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1874.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1935.1.1
+		chance = 75
+	}
+}
+
+sic_general_mezzacapo = {
+
+	first_name = luigi
+	last_name = mezzacapo
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1814.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1885.1.1
+		chance = 75
+	}
+}
+
+sic_general_cosenz = {
+
+	first_name = enrico
+	last_name = cosenz
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1820.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1893.1.1
+		chance = 75
+	}
+}
+
+sic_general_afan_de_rivera = {
+
+	first_name = achille
+	last_name = afan_de_rivera
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1842.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1873.1.1
+		latest_usage_date = 1905.1.1
+		chance = 75
+	}
+}
+
+sic_general_geloso = {
+
+	first_name = carlo
+	last_name = geloso
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1879.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+sic_admiral_scrugli = {
+
+	first_name = napoleone
+	last_name = scrugli
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1803.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1881.1.1
+		chance = 75
+	}
+}
+
+sic_admiral_accinni = {
+
+	first_name = enrico
+	last_name = accinni
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1838.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1870.1.1
+		latest_usage_date = 1905.1.1
 		chance = 75
 	}
 }

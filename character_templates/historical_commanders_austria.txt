@@ -1305,14 +1305,495 @@ aus_admiral_pachner = {
 	}
 }
 
+aus_admiral_von_millenkovich = {
+	first_name = benno
+	last_name = von_millenkovich
+	historical = yes
+	culture = cu:south_german
+	female = no
+	birth_date = 1869.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1935.1.1
+		chance = 75
+	}
+}
 
+aus_admiral_radon = {
+	first_name = borivoj
+	last_name = radon
+	historical = yes
+	culture = cu:czech
+	female = no
+	birth_date = 1867.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1935.1.1
+		chance = 75
+	}
+}
 
+aus_general_jansa = {
+	first_name = alfred
+	last_name = jansa
+	historical = yes
+	culture = cu:south_german
+	female = no
+	birth_date = 1884.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
 
+aus_general_barger = {
+	first_name = eduard
+	last_name = barger
+	historical = yes
+	culture = cu:south_german
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
 
+aus_general_von_eimannsberger = {
+	first_name = ludwig
+	last_name = von_eimannsberger
+	historical = yes
+	culture = cu:south_german
+	female = no
+	birth_date = 1878.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
 
+aus_general_von_somorja = {
+	first_name = geza_lukachich
+	last_name = von_somorja
+	historical = yes
+	culture = cu:hungarian
+	female = no
+	birth_date = 1865.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}
 
+aus_general_horsetzky_von_hornthal = {
+	first_name = ernst
+	last_name = horsetzky_von_hornthal
+	historical = yes
+	culture = cu:south_german
+	female = no
+	birth_date = 1865.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}
 
+aus_general_von_hotzendorf = {
+	first_name = franz_conrad
+	last_name = von_hotzendorf
+	historical = yes
+	culture = cu:south_german
+	female = no
+	birth_date = 1852.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1887.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
 
+aus_general_von_bolfras = {
+	first_name = arthur
+	last_name = von_bolfras
+	historical = yes
+	culture = cu:south_german
+	female = no
+	birth_date = 1838.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1872.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
 
+aus_general_von_boog = {
+	first_name = adolf
+	last_name = von_boog
+	historical = yes
+	culture = cu:south_german
+	female = no
+	birth_date = 1866.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1930.1.1
+		chance = 75
+	}
+}
 
+aus_general_vidossich = {
+	first_name = rudolf
+	last_name = vidossich
+	historical = yes
+	culture = cu:south_german
+	female = no
+	birth_date = 1872.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
 
+aus_general_philippovich_von_philippsberg = {
+	first_name = joseph
+	last_name = philippovich_von_philippsberg
+	historical = yes
+	culture = cu:croatian
+	female = no
+	birth_date = 1818.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1885.1.1
+		chance = 75
+	}
+}
+
+aus_general_folliot_de_crenneville = {
+	first_name = ludwig
+	last_name = folliot_de_crenneville
+	historical = yes
+	culture = cu:south_german
+	female = no
+	birth_date = 1813.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1844.1.1
+		latest_usage_date = 1880.1.1
+		chance = 75
+	}
+}
+
+aus_general_dobrzensky_von_dobrzenitz = {
+	first_name = anton
+	last_name = dobrzensky_von_dobrzenitz
+	historical = yes
+	culture = cu:czech
+	female = no
+	birth_date = 1807.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1870.1.1
+		chance = 75
+	}
+}
+
+aus_admiral_singule = {
+	first_name = rudolf
+	last_name = singule
+	historical = yes
+	culture = cu:south_german
+	female = no
+	birth_date = 1883.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1915.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+aus_general_von_schaffgotsch = {
+	first_name = johann_franz
+	last_name = von_schaffgotsch
+	historical = yes
+	culture = cu:south_german
+	female = no
+	birth_date = 1792.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1835.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+
+aus_general_von_hauslab = {
+	first_name = franz
+	last_name = von_hauslab
+	historical = yes
+	culture = cu:south_german
+	female = no
+	birth_date = 1798.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:AUS
+					this = c:AUS
+				}
+				AND = {
+					NOT = { exists = c:AUS }
+					exists = c:GER
+					this = c:GER
+					c:GER = { owns_entire_state_region = STATE_AUSTRIA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1875.1.1
+		chance = 75
+	}
+}

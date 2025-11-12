@@ -540,3 +540,555 @@ den_admiral_zahrtmann = {
 		chance = 75
 	}
 }
+
+den_general_gortz = {
+
+	first_name = vilhelm
+	last_name = gortz
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1852.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1883.1.1
+		latest_usage_date = 1915.1.1
+		chance = 75
+	}
+}
+
+den_general_gerlach = {
+
+	first_name = georg_daniel
+	last_name = gerlach
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1797.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1842.1.1
+		latest_usage_date = 1864.1.1
+		chance = 75
+	}
+}
+
+den_general_ankjaer = {
+
+	first_name = stephan
+	last_name = ankjaer
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1820.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1890.1.1
+		chance = 75
+	}
+}
+
+den_general_bardenfleth = {
+
+	first_name = frederik
+	last_name = bardenfleth
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1781.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1852.1.1
+		chance = 75
+	}
+}
+
+den_general_berthelsen = {
+
+	first_name = palle
+	last_name = berthelsen
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1857.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+den_general_fog = {
+
+	first_name = ludolph_erasmi
+	last_name = fog
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1825.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1851.1.1
+		latest_usage_date = 1895.1.1
+		chance = 75
+	}
+}
+
+den_general_prins_harald = {
+
+	first_name = harald
+	last_name = glucksborg
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1876.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1949.1.1
+		chance = 75
+	}
+}
+
+den_general_hedemann = {
+
+	first_name = marius
+	last_name = hedemann
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1836.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1872.1.1
+		latest_usage_date = 1901.1.1
+		chance = 75
+	}
+}
+
+
+den_general_kuhnel = {
+
+	first_name = arnold
+	last_name = kuhnel
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1850.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1908.1.1
+		chance = 75
+	}
+}
+
+den_general_lembcke = {
+
+	first_name = immanuel
+	last_name = lembcke
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1854.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1923.1.1
+		chance = 75
+	}
+}
+
+den_general_leschly = {
+
+	first_name = mauritz
+	last_name = leschly
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1841.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1872.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+den_general_madsen = {
+
+	first_name = herman
+	last_name = madsen
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1844.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1872.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+
+den_general_tuxen = {
+
+	first_name = august
+	last_name = tuxen
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1853.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1928.1.1
+		chance = 75
+	}
+}
+
+den_admiral_wandel = {
+
+	first_name = carl_frederick
+	last_name = wandel
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1843.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1876.1.1
+		latest_usage_date = 1911.1.1
+		chance = 75
+	}
+}
+
+den_admiral_kofoed_hansen = {
+
+	first_name = otto_joachim
+	last_name = kofoed_hansen
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1843.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1918.1.1
+		chance = 75
+	}
+}
+
+den_admiral_meldal = {
+
+	first_name = julius
+	last_name = meldal
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1827.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1897.1.1
+		chance = 75
+	}
+}
+
+den_admiral_bille = {
+
+	first_name = steen_andersen
+	last_name = bille
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1797.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1844.1.1
+		latest_usage_date = 1874.1.1
+		chance = 75
+	}
+}
+
+den_admiral_meyer = {
+
+	first_name = johan_anton
+	last_name = meyer
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1799.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1843.1.1
+		latest_usage_date = 1870.1.1
+		chance = 75
+	}
+}
+
+den_admiral_evers = {
+
+	first_name = anton
+	last_name = evers
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1857.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1935.1.1
+		chance = 75
+	}
+}
+
+den_admiral_koch = {
+
+	first_name = hans
+	last_name = koch
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1836.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1864.1.1
+		latest_usage_date = 1899.1.1
+		chance = 75
+	}
+}
+
+den_admiral_rechnitzer = {
+
+	first_name = hjalmar
+	last_name = rechnitzer
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1872.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1953.1.1
+		chance = 75
+	}
+}
+
+den_admrial_briand_de_crevecoeur = {
+
+	first_name = emmanuel
+	last_name = briand_de_crevecoeur
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1918.1.1
+		latest_usage_date = 1960.1.1
+		chance = 75
+	}
+}
+
+den_general_with = {
+
+	first_name = erik
+	last_name = with
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1956.1.1
+		chance = 75
+	}
+}
+
+den_general_rye = {
+
+	first_name = charles
+	last_name = rye
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1874.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+
+den_admrial_hansen = {
+
+	first_name = godfred
+	last_name = hansen
+	historical = yes
+	culture = cu:danish
+	female = no
+	birth_date = 1876.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:DEN ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
