@@ -94,25 +94,25 @@ tur_general_abdulkerim = {
 		chance = 75
 	}
 }
-tur_general_djemal = {
-	dna = dna_djemal_pasha
-	first_name = Djemal
-	last_name = Pasha
-	historical = yes
-	culture = cu:turkish
-	female = no
-	birth_date = 1872.5.6
-	commander_usage = {
-		country_trigger = {
-			exists = c:TUR
-			this = c:TUR
-		}
-		role = general
-		earliest_usage_date = 1902.1.1
-		latest_usage_date = 1920.1.1	
-		chance = 75
-	}
-}
+#tur_general_djemal = { #already in ecchi redux
+#	dna = dna_djemal_pasha
+#	first_name = Djemal
+#	last_name = Pasha
+#	historical = yes
+#	culture = cu:turkish
+#	female = no
+#	birth_date = 1872.5.6
+#	commander_usage = {
+#		country_trigger = {
+#			exists = c:TUR
+#			this = c:TUR
+#		}
+#		role = general
+#		earliest_usage_date = 1902.1.1
+#		latest_usage_date = 1920.1.1
+#		chance = 75
+#	}
+#}
 tur_general_omar = {
 	dna = dna_omar_pasha
 	first_name = Omar

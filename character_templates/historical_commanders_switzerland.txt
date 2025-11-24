@@ -51,8 +51,8 @@ swi_general_guisan = {
 			this = c:SWI
 		}
 		role = general
-		earliest_usage_date = 1904.1.1
-		latest_usage_date = 1930.1.1	
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1950.1.1
 		chance = 75
 	}
 }
@@ -94,4 +94,435 @@ swi_general_bernegg = {
 		chance = 75
 	}
 }
-
+swi_general_labhart = {
+	first_name = jakob
+	last_name = labhart
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1881.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+swi_general_huber = {
+	first_name = jakob
+	last_name = huber
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1881.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+swi_general_roost = {
+	first_name = heinrich
+	last_name = roost
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1873.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+swi_general_sonderegger = {
+	first_name = emil
+	last_name = sonderegger
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1868.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1908.1.1
+		latest_usage_date = 1938.1.1
+		chance = 75
+	}
+}
+swi_general_keller = {
+	first_name = arnold
+	last_name = keller
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1841.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1876.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+swi_general_paravicini = {
+	first_name = rudolf
+	last_name = paravicini
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1815.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1880.1.1
+		chance = 75
+	}
+}
+swi_general_siegfried = {
+	first_name = hermann
+	last_name = siegfried
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1819.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1855.1.1
+		latest_usage_date = 1885.1.1
+		chance = 75
+	}
+}
+swi_general_von_salis_soglio = {
+	first_name = johann_ulrich
+	last_name = von_salis_soglio
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1790.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1860.1.1
+		chance = 75
+	}
+}
+swi_general_von_donatz = {
+	first_name = peter_ludwig
+	last_name = von_donatz
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1790.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1855.1.1
+		chance = 75
+	}
+}
+swi_general_bridler = {
+	first_name = otto
+	last_name = bridler
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1864.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1932.1.1
+		chance = 75
+	}
+}
+swi_general_fahrlander = {
+	first_name = eugen
+	last_name = fahrlander
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1844.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1912.1.1
+		chance = 75
+	}
+}
+swi_general_iselin_sarasin = {
+	first_name = isaak
+	last_name = iselin_sarasin
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1851.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1887.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+swi_general_treytorrens_de_loys = {
+	first_name = robert_ferdinand
+	last_name = treytorrens_de_loys
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1857.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1892.1.1
+		latest_usage_date = 1922.1.1
+		chance = 75
+	}
+}
+swi_general_ceresole = {
+	first_name = paul
+	last_name = ceresole
+	historical = yes
+	culture = cu:north_german
+	female = no
+	birth_date = 1832.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1875.1.1
+		latest_usage_date = 1905.1.1
+		chance = 75
+	}
+}
+swi_general_meister = {
+	first_name = ulrich
+	last_name = meister
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1838.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+swi_general_lecomte = {
+	first_name = ferdinand
+	last_name = lecomte
+	historical = yes
+	culture = cu:francoprovencal
+	female = no
+	birth_date = 1826.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1861.1.1
+		latest_usage_date = 1891.1.1
+		chance = 75
+	}
+}
+swi_general_ochsenbein = {
+	first_name = ulrich
+	last_name = ochsenbein
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1811.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1846.1.1
+		latest_usage_date = 1876.1.1
+		chance = 75
+	}
+}
+swi_general_von_linden = {
+	first_name = ludwig
+	last_name = von_linden
+	historical = yes
+	culture = cu:south_german
+	female = no
+	birth_date = 1808.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1842.1.1
+		latest_usage_date = 1880.1.1
+		chance = 75
+	}
+}
+swi_general_zimmerli = {
+	first_name = david
+	last_name = zimmerli
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1794.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+swi_general_veillon = {
+	first_name = frederic
+	last_name = veillon
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1804.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1839.1.1
+		latest_usage_date = 1870.1.1
+		chance = 75
+	}
+}
+swi_general_rusca = {
+	first_name = franchino
+	last_name = rusca
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1786.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1860.1.1
+		chance = 75
+	}
+}
+swi_general_rusca = {
+	first_name = franchino
+	last_name = rusca
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1786.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1860.1.1
+		chance = 75
+	}
+}
+swi_general_stadler = {
+	first_name = albert
+	last_name = stadler
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1817.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1853.1.1
+		latest_usage_date = 1885.1.1
+		chance = 75
+	}
+}
+swi_general_bindschedler = {
+	first_name = rudolf
+	last_name = bindschedler
+	historical = yes
+	culture = cu:alemannic
+	female = no
+	birth_date = 1827.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:SWI
+			this = c:SWI
+		}
+		role = general
+		earliest_usage_date = 1863.1.1
+		latest_usage_date = 1895.1.1
+		chance = 75
+	}
+}

@@ -1,0 +1,504 @@
+﻿# Hungary - HUN
+hun_general_werth = {
+	first_name = henrik
+	last_name = werth
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1881.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+hun_general_nagy_de_nagybaczon = {
+	first_name = vilmos
+	last_name = nagy_de_nagybaczon
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1884.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+hun_general_janky = {
+	first_name = kocsard
+	last_name = janky
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1868.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+
+hun_general_lorx = {
+	first_name = gyozo
+	last_name = lorx
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1871.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+
+hun_general_hazai = {
+	first_name = samu
+	last_name = hazai
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1851.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1886.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+hun_general_kolossvary = {
+	first_name = dezso
+	last_name = kolossvary
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1854.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1888.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+hun_general_szurmay = {
+	first_name = sandor
+	last_name = szurmay
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1860.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1930.1.1
+		chance = 75
+	}
+}
+
+hun_general_tamasy = {
+	first_name = arpad
+	last_name = tamasy
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1861.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1930.1.1
+		chance = 75
+	}
+}
+
+hun_general_berzeviczy = {
+	first_name = bela
+	last_name = berzeviczy
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1870.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+
+hun_general_hegedus = {
+	first_name = pal
+	last_name = hegedus
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1861.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}
+
+hun_general_fejervary = {
+	first_name = geza
+	last_name = fejervary
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1833.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1868.1.1
+		latest_usage_date = 1905.1.1
+		chance = 75
+	}
+}
+
+hun_general_von_straussenburg = {
+	first_name = arthur_arz
+	last_name = von_straussenburg
+	historical = yes
+	culture = cu:south_german
+	birth_date = 1857.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1892.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}
+
+hun_general_esterhazy = {
+	first_name = alajos
+	last_name = esterhazy
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1844.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+
+hun_general_szapary = {
+	first_name = laszlo
+	last_name = szapary
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1831.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1867.1.1
+		latest_usage_date = 1900.1.1
+		chance = 75
+	}
+}
+
+hun_general_damjanich = {
+	first_name = janos
+	last_name = damjanich
+	historical = yes
+	culture = cu:serb
+	birth_date = 1804.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1870.1.1
+		chance = 75
+	}
+}
+
+hun_general_nagysandor = {
+	first_name = jozsef
+	last_name = nagysandor
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1803.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1870.1.1
+		chance = 75
+	}
+}
+
+hun_general_lenkey = {
+	first_name = janos
+	last_name = lenkey
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1807.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1845.1.1
+		latest_usage_date = 1875.1.1
+		chance = 75
+	}
+}
+
+hun_general_perczel = {
+	first_name = mor
+	last_name = perczel
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1811.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1880.1.1
+		chance = 75
+	}
+}
+
+hun_general_kmety = {
+	first_name = gyorgy
+	last_name = kmety
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1813.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1849.1.1
+		latest_usage_date = 1880.1.1
+		chance = 75
+	}
+}
+
+hun_general_aschermann = {
+	first_name = ferenc
+	last_name = aschermann
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1821.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1855.1.1
+		latest_usage_date = 1890.1.1
+		chance = 75
+	}
+}
+
+hun_general_forinyak = {
+	first_name = gyula
+	last_name = forinyak
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1837.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1871.1.1
+		latest_usage_date = 1905.1.1
+		chance = 75
+	}
+}
+
+hun_general_lahner = {
+	first_name = gyorgy
+	last_name = lahner
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1795.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+
+hun_general_dobay = {
+	first_name = jozsef
+	last_name = dobay
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1820.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1856.1.1
+		latest_usage_date = 1890.1.1
+		chance = 75
+	}
+}
+
+hun_general_hentzi = {
+	first_name = heinrich
+	last_name = hentzi
+	historical = yes
+	culture = cu:south_german
+	birth_date = 1785.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1860.1.1
+		chance = 75
+	}
+}
+
+hun_general_moga = {
+	first_name = janos
+	last_name = moga
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1784.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1860.1.1
+		chance = 75
+	}
+}
+
+hun_general_aulich = {
+	first_name = lajos
+	last_name = aulich
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1793.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+
+hun_general_pongracz = {
+	first_name = laszlo
+	last_name = pongracz
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1824.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1860.1.1
+		latest_usage_date = 1890.1.1
+		chance = 75
+	}
+}
+
+hun_general_jekelfalussy = {
+	first_name = lajos
+	last_name = jekelfalussy
+	historical = yes
+	culture = cu:hungarian
+	birth_date = 1848.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:HUN
+			this = c:HUN
+		}
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}

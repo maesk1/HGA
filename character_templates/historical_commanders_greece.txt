@@ -37,25 +37,25 @@ gre_general_christodoulou = {
 		chance = 75
 	}
 }
-gre_general_danglis = {
-    dna = dna_panagiotis_danglis
-	first_name = Panagiotis
-	last_name = Danglis
-	historical = yes
-	culture = cu:greek
-	female = no
-	birth_date = 1853.11.17
-	commander_usage = {
-		country_trigger = {
-			exists = c:GRE
-			this = c:GRE
-		}
-		role = general
-		earliest_usage_date = 1883.1.1
-		latest_usage_date = 1920.1.1	
-		chance = 75
-	}
-}
+#gre_general_danglis = { #added in dlc
+#    dna = dna_panagiotis_danglis
+#	first_name = Panagiotis
+#	last_name = Danglis
+#	historical = yes
+#	culture = cu:greek
+#	female = no
+#	birth_date = 1853.11.17
+#	commander_usage = {
+#		country_trigger = {
+#			exists = c:GRE
+#			this = c:GRE
+#		}
+#		role = general
+#		earliest_usage_date = 1883.1.1
+#		latest_usage_date = 1920.1.1
+#		chance = 75
+#	}
+#}
 gre_general_delagrammatikas = {
     dna = dna_nikolaos_delagrammatikas
 	first_name = Nikolaos
@@ -132,6 +132,453 @@ gre_admiral_kountouriotis = {
 		chance = 75
 	}
 }
-
-
-
+gre_general_papagos = {
+	first_name = alexandros
+	last_name = papagos
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1883.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+gre_general_katsimitros = {
+	first_name = charalambos
+	last_name = katsimitros
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1886.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+gre_general_dousmanis = {
+	first_name = viktor
+	last_name = dousmanis
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1861.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}
+gre_general_tsirogiannis = {
+	first_name = vlasios
+	last_name = tsirogiannis
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1871.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+gre_general_smolenskis = {
+	first_name = konstantinos
+	last_name = smolenskis
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1843.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1877.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+gre_general_vassos = {
+	first_name = timoleon
+	last_name = vassos
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1836.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1871.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+gre_general_karaiskakis = {
+	first_name = spyridon
+	last_name = karaiskakis
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1825.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1860.1.1
+		latest_usage_date = 1895.1.1
+		chance = 75
+	}
+}
+gre_general_valtinos = { #Βλάσιος Βαλτινός
+	first_name = vlasios
+	last_name = valtinos
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1827.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1862.1.1
+		latest_usage_date = 1895.1.1
+		chance = 75
+	}
+}
+gre_general_gennadis = {
+	first_name = stefanos
+	last_name = gennadis
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1858.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+gre_general_koronaios = {
+	first_name = panos
+	last_name = koronaios
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1809.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1846.1.1
+		latest_usage_date = 1880.1.1
+		chance = 75
+	}
+}
+gre_general_meletopoulos = {
+	first_name = dimitrios
+	last_name = meletopoulos
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1796.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1860.1.1
+		chance = 75
+	}
+}
+gre_general_petimezas = { #Βασίλειος Πετιμεζάς
+	first_name = vasilios
+	last_name = petimezas
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1811.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1846.1.1
+		latest_usage_date = 1880.1.1
+		chance = 75
+	}
+}
+gre_general_zervas = {
+	first_name = nikolaos
+	last_name = zervas
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1800.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+gre_general_kolokotronis = {
+	first_name = gennaios
+	last_name = kolokotronis
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1805.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1870.1.1
+		chance = 75
+	}
+}
+gre_general_binos = { #Κωνσταντίνος Μπίνος
+	first_name = konstantinos
+	last_name = binos
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1785.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1860.1.1
+		chance = 75
+	}
+}
+gre_general_botsaris = {
+	first_name = kostas
+	last_name = botsaris
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1792.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1860.1.1
+		chance = 75
+	}
+}
+gre_general_metaxas = { #Γεράσιμος Μεταξάς
+	first_name = gerasimos
+	last_name = metaxas
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1816.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1885.1.1
+		chance = 75
+	}
+}
+gre_general_plapoutas = {
+	first_name = dimitris
+	last_name = plapoutas
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1786.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+gre_admiral_kavvadias = {
+	first_name = epameinondas
+	last_name = kavvadias
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1886.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+gre_admiral_oikonomou = {
+	first_name = dimitrios
+	last_name = oikonomou
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1883.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+gre_admiral_kountouriotis = { #Γεώργιος Κουντουριώτης
+	first_name = georgios
+	last_name = kountouriotis
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1851.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = admiral
+		earliest_usage_date = 1886.1.1
+		latest_usage_date = 1915.1.1
+		chance = 75
+	}
+}
+gre_admiral_ginis = { #Πέτρος Γκίνης
+	first_name = petros
+	last_name = ginis
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1861.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = admiral
+		earliest_usage_date = 1897.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}
+gre_admiral_matthaiopoulos = { #Ματθαίος Ματθαιόπουλος
+	first_name = matthaios
+	last_name = matthaiopoulos
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1870.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = admiral
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+gre_admiral_ipitis = {
+	first_name = ioannis
+	last_name = ipitis
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1867.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = admiral
+		earliest_usage_date = 1906.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+gre_admiral_typaldos_alfonsatos = {
+	first_name = konstantinos
+	last_name = typaldos_alfonsatos
+	historical = yes
+	culture = cu:greek
+	female = no
+	birth_date = 1873.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:GRE
+			this = c:GRE
+		}
+		role = admiral
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
