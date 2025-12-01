@@ -770,27 +770,27 @@ sic_admiral_acton_ferdinando = {
 	}
 }
 
-sar_admiral_albini  = {
-
-	first_name = michele_giuseppe
-	last_name = albini
-	historical = yes
-	culture = cu:north_italian
-	female = no
-	birth_date = 1780.1.1
-	commander_usage = {
-		country_trigger = {
-			OR = {
-				AND = { exists = c:SAR this = c:SAR }
-				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
-			}
-		}
-		role = admiral
-		earliest_usage_date = 1808.1.1
-		latest_usage_date = 1860.1.1
-		chance = 75
-	}
-}
+#sar_admiral_albini  = { #already in base game
+#
+#	first_name = michele_giuseppe
+#	last_name = albini
+#	historical = yes
+#	culture = cu:north_italian
+#	female = no
+#	birth_date = 1780.1.1
+#	commander_usage = {
+#		country_trigger = {
+#			OR = {
+#				AND = { exists = c:SAR this = c:SAR }
+#				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+#			}
+#		}
+#		role = admiral
+#		earliest_usage_date = 1808.1.1
+#		latest_usage_date = 1860.1.1
+#		chance = 75
+#	}
+#}
 
 sar_admiral_amero_d_aste = {
 

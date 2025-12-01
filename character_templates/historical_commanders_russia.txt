@@ -1306,24 +1306,24 @@ rus_general_gorchakov = {
 		chance = 75
 	}
 }
-rus_general_muravyov_karsky = {
-	first_name = nikolay
-	last_name = muravyov_karsky
-	historical = yes
-	culture = cu:russian
-	female = no
-	birth_date = 1794.1.1
-	commander_usage = {
-		country_trigger = {
-			exists = c:RUS
-			this = c:RUS
-		}
-		role = general
-		earliest_usage_date = 1835.1.1
-		latest_usage_date = 1866.1.1
-		chance = 75
-	}
-}
+#rus_general_muravyov_karsky = { #already in base game
+#	first_name = nikolay
+#	last_name = muravyov_karsky
+#	historical = yes
+#	culture = cu:russian
+#	female = no
+#	birth_date = 1794.1.1
+#	commander_usage = {
+#		country_trigger = {
+#			exists = c:RUS
+#			this = c:RUS
+#		}
+#		role = general
+#		earliest_usage_date = 1835.1.1
+#		latest_usage_date = 1866.1.1
+#		chance = 75
+#	}
+#}
 rus_general_sukhozanet = {
 	first_name = nikolai
 	last_name = sukhozanet

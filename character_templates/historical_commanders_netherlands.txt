@@ -321,22 +321,22 @@ net_admiral_naudin_ten_cate = {
 	}
 }
 
-net_admiral_lucas = {
-
-	first_name = engelbertus
-	last_name = lucas
-	historical = yes
-	culture = cu:dutch
-	female = no
-	birth_date = 1785.1.1
-	commander_usage = {
-		country_trigger = { OR = { c:NET ?= this c:UNL ?= this } }
-		role = admiral
-		earliest_usage_date = 1813.1.1
-		latest_usage_date = 1865.1.1
-		chance = 75
-	}
-}
+#net_admiral_lucas = { #already in base game
+#
+#	first_name = engelbertus
+#	last_name = lucas
+#	historical = yes
+#	culture = cu:dutch
+#	female = no
+#	birth_date = 1785.1.1
+#	commander_usage = {
+#		country_trigger = { OR = { c:NET ?= this c:UNL ?= this } }
+#		role = admiral
+#		earliest_usage_date = 1813.1.1
+#		latest_usage_date = 1865.1.1
+#		chance = 75
+#	}
+#}
 
 net_admiral_schorer = {
 
