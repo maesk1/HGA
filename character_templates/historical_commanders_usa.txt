@@ -1158,3 +1158,363 @@ usa_admiral_nimitz = {
 		chance = 75
 	}
 }
+usa_general_marshall = {
+	first_name = george
+	last_name = marshall
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1880.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+usa_admiral_king = {
+	first_name = ernest
+	last_name = king
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1878.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = admiral
+		earliest_usage_date = 1915.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+usa_admiral_halsey = {
+	first_name = william
+	last_name = halsey
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = admiral
+		earliest_usage_date = 1915.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+usa_general_mcnair = {
+	first_name = lesley
+	last_name = mcnair
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1884.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+usa_general_hodges = {
+	first_name = courtney
+	last_name = hodges
+	historical = yes
+	culture = cu:dixie
+	female = no
+	birth_date = 1887.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+usa_general_twiggs = {
+	first_name = david
+	last_name = twiggs
+	historical = yes
+	culture = cu:dixie
+	female = no
+	birth_date = 1790.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = general
+		earliest_usage_date = 1838.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+usa_general_johnston = {
+	first_name = albert_sidney
+	last_name = johnston
+	historical = yes
+	culture = cu:dixie
+	female = no
+	birth_date = 1802.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = general
+		earliest_usage_date = 1838.1.1
+		latest_usage_date = 1870.1.1
+		chance = 75
+	}
+}
+usa_general_halleck = {
+	first_name = henry
+	last_name = halleck
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1815.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = general
+		earliest_usage_date = 1846.1.1
+		latest_usage_date = 1872.1.1
+		chance = 75
+	}
+}
+usa_general_anderson = {
+	first_name = robert
+	last_name = anderson
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1805.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = general
+		earliest_usage_date = 1847.1.1
+		latest_usage_date = 1880.1.1
+		chance = 75
+	}
+}
+usa_general_buford = {
+	first_name = napoleon_bonaparte
+	last_name = buford
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1807.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = general
+		earliest_usage_date = 1847.1.1
+		latest_usage_date = 1880.1.1
+		chance = 75
+	}
+}
+usa_general_buell = {
+	first_name = don_carlos
+	last_name = buell
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1818.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = general
+		earliest_usage_date = 1851.1.1
+		latest_usage_date = 1882.1.1
+		chance = 75
+	}
+}
+usa_admiral_du_pont = {
+	first_name = samuel_francis
+	last_name = du_pont
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1803.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = admiral
+		earliest_usage_date = 1838.1.1
+		latest_usage_date = 1870.1.1
+		chance = 75
+	}
+}
+usa_admiral_rowan = {
+	first_name = stephen_clegg
+	last_name = rowan
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1803.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = admiral
+		earliest_usage_date = 1838.1.1
+		latest_usage_date = 1880.1.1
+		chance = 75
+	}
+}
+usa_admiral_dahlgren = {
+	first_name = john
+	last_name = dahlgren
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1809.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = admiral
+		earliest_usage_date = 1842.1.1
+		latest_usage_date = 1875.1.1
+		chance = 75
+	}
+}
+usa_admiral_worden = {
+	first_name = john_lorimer
+	last_name = worden
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1818.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = admiral
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1886.1.1
+		chance = 75
+	}
+}
+usa_admiral_jenkins = {
+	first_name = thornton
+	last_name = jenkins
+	historical = yes
+	culture = cu:dixie
+	female = no
+	birth_date = 1811.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = admiral
+		earliest_usage_date = 1842.1.1
+		latest_usage_date = 1873.1.1
+		chance = 75
+	}
+}
+usa_admiral_jouett = {
+	first_name = james_edward
+	last_name = jouett
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1826.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = admiral
+		earliest_usage_date = 1855.1.1
+		latest_usage_date = 1890.1.1
+		chance = 75
+	}
+}
+usa_admiral_shufeldt = {
+	first_name = robert_wilson
+	last_name = shufeldt
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1822.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = admiral
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1884.1.1
+		chance = 75
+	}
+}
+usa_admiral_belknap = {
+	first_name = george
+	last_name = belknap
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1832.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = admiral
+		earliest_usage_date = 1864.1.1
+		latest_usage_date = 1894.1.1
+		chance = 75
+	}
+}
+usa_admiral_skerrett = {
+	first_name = joseph
+	last_name = skerrett
+	historical = yes
+	culture = cu:yankee
+	female = no
+	birth_date = 1832.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		role = admiral
+		earliest_usage_date = 1864.1.1
+		latest_usage_date = 1894.1.1
+		chance = 75
+	}
+}

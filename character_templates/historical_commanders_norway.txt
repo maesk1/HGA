@@ -424,5 +424,575 @@ nor_general_ruge = {
 		chance = 75
 	}
 }
+first_name = haakon_ditlev
+	last_name = lowzow
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1854.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
 
+nor_general_sporck = {
+
+	first_name = august_geelmuyden
+	last_name = sporck
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1851.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1883.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+nor_general_sporck2 = {
+
+	first_name = johan_henrik
+	last_name = sporck
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1778.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1832.1.1
+		latest_usage_date = 1855.1.1
+		chance = 75
+	}
+}
+
+nor_general_keilhau = {
+
+	first_name = hans_vilhelm
+	last_name = keilhau
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1845.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1874.1.1
+		latest_usage_date = 1912.1.1
+		chance = 75
+	}
+}
+
+nor_general_fleischer = {
+
+	first_name = carl_gustav
+	last_name = fleischer
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1883.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1820.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+nor_general_bull = {
+
+	first_name = karl
+	last_name = bull
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1860.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}
+
+nor_general_raeder = {
+
+	first_name = hans
+	last_name = raeder
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1831.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1862.1.1
+		latest_usage_date = 1895.1.1
+		chance = 75
+	}
+}
+
+nor_general_overgaard = {
+
+	first_name = alexander_bretteville
+	last_name = overgaard
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1836.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1870.1.1
+		latest_usage_date = 1905.1.1
+		chance = 75
+	}
+}
+
+nor_admiral_petersen = {
+
+	first_name = peter_christian
+	last_name = petersen
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1791.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1842.1.1
+		latest_usage_date = 1872.1.1
+		chance = 75
+	}
+}
+
+nor_admiral_von_der_lippe = {
+
+	first_name = jakob
+	last_name = von_der_lippe
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1872.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1915.1.1
+		latest_usage_date = 1945.1.1
+		chance = 75
+	}
+}
+
+nor_admiral_hagerup = {
+
+	first_name = henrik_steffens
+	last_name = hagerup
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1806.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1842.1.1
+		latest_usage_date = 1870.1.1
+		chance = 75
+	}
+}
+
+nor_admiral_corneliussen = {
+
+	first_name = elias
+	last_name = corneliussen
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1881.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1921.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+nor_admiral_muller = {
+
+	first_name = jochum_nicolay
+	last_name = muller
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1775.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1820.1.1
+		latest_usage_date = 1855.1.1
+		chance = 75
+	}
+}
+
+nor_admiral_knap = {
+
+	first_name = rasmus_andreas
+	last_name = knap
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1818.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1890.1.1
+		chance = 75
+	}
+}
+
+nor_admiral_smith_johannsen = {
+
+	first_name = johannes
+	last_name = smith_johannsen
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1876.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1915.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+nor_general_wergeland2 = {
+
+	first_name = joseph
+	last_name = wergeland
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1815.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1845.1.1
+		latest_usage_date = 1880.1.1
+		chance = 75
+	}
+}
+
+nor_general_sejersted = {
+
+	first_name = johannes
+	last_name = sejersted
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1842.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1876.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+
+
+nor_general_aavatsmark = {
+
+	first_name = ivar
+	last_name = aavatsmark
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1864.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1930.1.1
+		chance = 75
+	}
+}
+
+nor_general_bratlie = {
+
+	first_name = jens
+	last_name = bratlie
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1856.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}
+
+nor_general_haug = {
+
+	first_name = jacob_hvinden
+	last_name = haug
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1880.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+nor_admiral_diesen = {
+
+	first_name = henry
+	last_name = diesen
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1883.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+nor_general_steffens = {
+
+	first_name = william
+	last_name = steffens
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1880.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+nor_general_gulbranson = {
+
+	first_name = carl_hagbarth
+	last_name = gulbranson
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1870.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+
+nor_general_birch = {
+
+	first_name = paul_hansen
+	last_name = birch
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1888.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+
+
+nor_general_holst = {
+
+	first_name = peter
+	last_name = holst
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1843.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1875.1.1
+		latest_usage_date = 1905.1.1
+		chance = 75
+	}
+}
+
+nor_general_nissen = {
+
+	first_name = per_schjelderup
+	last_name = nissen
+	historical = yes
+	culture = cu:norwegian
+	female = no
+	birth_date = 1844.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				c:NOR ?= this
+				c:SCA ?= this
+			}
+		}
+		role = general
+		earliest_usage_date = 1875.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
 

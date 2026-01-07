@@ -1,0 +1,1191 @@
+﻿# Baltic Governorates - UBD
+# Baltic Governorates - UBD
+ubd_general_von_rennenkampf = {
+	first_name = paul
+	last_name = von_rennenkampf
+	historical = yes
+	culture = cu:byelorussian
+	female = no
+	birth_date = 1854.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TALINN }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TALINN }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1889.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}
+
+ubd_general_tonisson = {
+	first_name = aleksander
+	last_name = tonisson
+	historical = yes
+	culture = cu:estonian
+	female = no
+	birth_date = 1875.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TARTU }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TARTU }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1915.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+ubd_general_lill = {
+	first_name = paul
+	last_name = lill
+	historical = yes
+	culture = cu:estonian
+	female = no
+	birth_date = 1882.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TARTU }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TARTU }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+ubd_general_jonson = {
+	first_name = gustav
+	last_name = jonson
+	historical = yes
+	culture = cu:estonian
+	female = no
+	birth_date = 1880.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TARTU }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TARTU }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+ubd_general_balodis = {
+	first_name = janis
+	last_name = balodis
+	historical = yes
+	culture = cu:latvian
+	female = no
+	birth_date = 1881.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LAT
+					this = c:LAT
+					c:LAT = { owns_entire_state_region = STATE_RIGA }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LAT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_RIGA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+ubd_general_penikis = {
+	first_name = martins
+	last_name = penikis
+	historical = yes
+	culture = cu:latvian
+	female = no
+	birth_date = 1874.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LAT
+					this = c:LAT
+					c:LAT = { owns_entire_state_region = STATE_COURLAND }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LAT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_COURLAND }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1915.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+ubd_general_zukauskas = {
+	first_name = silvestras
+	last_name = zukauskas
+	historical = yes
+	culture = cu:lithuanian
+	female = no
+	birth_date = 1860.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LIT
+					this = c:LIT
+					c:LIT = { owns_entire_state_region = STATE_KAUNAS }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LIT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_KAUNAS }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+
+ubd_general_galvydis_bykauskas = {
+	first_name = jonas
+	last_name = galvydis_bykauskas
+	historical = yes
+	culture = cu:lithuanian
+	female = no
+	birth_date = 1864.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LIT
+					this = c:LIT
+					c:LIT = { owns_entire_state_region = STATE_KAUNAS }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LIT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_KAUNAS }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+
+ubd_general_liatukas = {
+	first_name = pranas
+	last_name = liatukas
+	historical = yes
+	culture = cu:lithuanian
+	female = no
+	birth_date = 1876.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LIT
+					this = c:LIT
+					c:LIT = { owns_entire_state_region = STATE_KAUNAS }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LIT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_KAUNAS }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1915.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+ubd_general_von_berg = {
+	first_name = friedrich
+	last_name = von_berg
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1794.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LAT
+					this = c:LAT
+					c:LAT = { owns_entire_state_region = STATE_RIGA }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LAT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_RIGA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1874.1.1
+		chance = 75
+	}
+}
+
+ubd_general_totleben = {
+	first_name = eduard
+	last_name = totleben
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1818.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LAT
+					this = c:LAT
+					c:LAT = { owns_entire_state_region = STATE_COURLAND }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LAT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_COURLAND }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1853.1.1
+		latest_usage_date = 1884.1.1
+		chance = 75
+	}
+}
+
+ubd_general_von_benckendorff = {
+	first_name = alexander
+	last_name = von_benckendorff
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1781.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TALINN }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TALINN }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1855.1.1
+		chance = 75
+	}
+}
+
+ubd_general_von_staal = {
+	first_name = karl_gustav
+	last_name = von_staal
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1781.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TALINN }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TALINN }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1855.1.1
+		chance = 75
+	}
+}
+
+ubd_general_von_rennenkampf2 = {
+	first_name = paul_andreas
+	last_name = von_rennenkampf
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1790.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TARTU }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TARTU }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+
+ubd_general_zass = {
+	first_name = grigory
+	last_name = zass
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1797.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LAT
+					this = c:LAT
+					c:LAT = { owns_entire_state_region = STATE_COURLAND }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LAT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_COURLAND }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1845.1.1
+		latest_usage_date = 1880.1.1
+		chance = 75
+	}
+}
+
+ubd_general_von_guldenstubbe = {
+	first_name = alexander
+	last_name = von_guldenstubbe
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1800.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TALINN }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TALINN }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1845.1.1
+		latest_usage_date = 1880.1.1
+		chance = 75
+	}
+}
+
+ubd_general_kridener = {
+	first_name = nikolay
+	last_name = kridener
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1811.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LAT
+					this = c:LAT
+					c:LAT = { owns_entire_state_region = STATE_RIGA }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LAT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_RIGA }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1885.1.1
+		chance = 75
+	}
+}
+
+ubd_general_brevern_de_la_gardie = {
+	first_name = pontus
+	last_name = brevern_de_la_gardie
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1814.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TALINN }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TALINN }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1885.1.1
+		chance = 75
+	}
+}
+
+ubd_general_von_baranoff = {
+	first_name = peter
+	last_name = von_baranoff
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1843.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TALINN }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TALINN }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1877.1.1
+		latest_usage_date = 1815.1.1
+		chance = 75
+	}
+}
+
+ubd_general_von_wrangell = {
+	first_name = alexander
+	last_name = von_wrangell
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1804.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TARTU }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TARTU }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1845.1.1
+		latest_usage_date = 1875.1.1
+		chance = 75
+	}
+}
+
+ubd_general_barclay_de_tolly_weymarn = {
+	first_name = alexander
+	last_name = barclay_de_tolly_weymarn
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1824.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TARTU }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TARTU }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1888.1.1
+		chance = 75
+	}
+}
+
+ubd_general_geyman = {
+	first_name = vasily
+	last_name = geyman
+	historical = yes
+	culture = cu:russian
+	female = no
+	birth_date = 1823.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LIT
+					this = c:LIT
+					c:LIT = { owns_entire_state_region = STATE_KAUNAS }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LIT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_KAUNAS }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1852.1.1
+		latest_usage_date = 1889.1.1
+		chance = 75
+	}
+}
+
+ubd_general_sukhomlinov = {
+	first_name = vladimir
+	last_name = sukhomlinov
+	historical = yes
+	culture = cu:russian
+	female = no
+	birth_date = 1848.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LIT
+					this = c:LIT
+					c:LIT = { owns_entire_state_region = STATE_KAUNAS }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LIT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_KAUNAS }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1878.1.1
+		latest_usage_date = 1912.1.1
+		chance = 75
+	}
+}
+
+ubd_admiral_von_reineke = {
+	first_name = michael
+	last_name = von_reineke
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1801.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LAT
+					this = c:LAT
+					c:LAT = { owns_entire_state_region = STATE_RIGA }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LAT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_RIGA }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1842.1.1
+		latest_usage_date = 1872.1.1
+		chance = 75
+	}
+}
+
+ubd_admiral_jessen = {
+    dna = dna_karl_jessen
+	first_name = Karl
+	last_name = Jessen
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1852.1.26
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TARTU }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TARTU }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1882.1.1
+		latest_usage_date = 1922.1.1
+		chance = 75
+	}
+}
+
+ubd_admiral_von_folkersahm = {
+	first_name = dmitry_gustavovich
+	last_name = von_folkersahm
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1846.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LAT
+					this = c:LAT
+					c:LAT = { owns_entire_state_region = STATE_COURLAND }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LAT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_COURLAND }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1874.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+
+ubd_admiral_von_lieven = {
+    dna = dna_alexander_lieven
+	first_name = alexander
+	last_name = von_lieven
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1860.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LAT
+					this = c:LAT
+					c:LAT = { owns_entire_state_region = STATE_COURLAND }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LAT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_COURLAND }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+ubd_admiral_pitka = {
+	first_name = johan
+	last_name = pitka
+	historical = yes
+	culture = cu:estonian
+	female = no
+	birth_date = 1860.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TALINN }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TALINN }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+ubd_admiral_salza = {
+	first_name = hermann
+	last_name = salza
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1885.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TALINN }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TALINN }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+ubd_admiral_von_keyserling = {
+	first_name = archibald
+	last_name = von_keyserling
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1882.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LAT
+					this = c:LAT
+					c:LAT = { owns_entire_state_region = STATE_COURLAND }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LAT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_COURLAND }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+ubd_admiral_kaskelis = {
+	first_name = antanas
+	last_name = kaskelis
+	historical = yes
+	culture = cu:lithuanian
+	female = no
+	birth_date = 1879.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:LIT
+					this = c:LIT
+					c:LIT = { owns_entire_state_region = STATE_KAUNAS }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:LIT }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_KAUNAS }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+ubd_admiral_von_fersen = {
+	first_name = hans_william
+	last_name = von_fersen
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1858.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TALINN }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TALINN }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1930.1.1
+		chance = 75
+	}
+}
+
+ubd_admiral_von_bock = {
+	first_name = georg
+	last_name = von_bock
+	historical = yes
+	culture = cu:east_german
+	female = no
+	birth_date = 1818.1.1
+		commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:UBD
+					this = c:UBD
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					exists = c:EST
+					this = c:EST
+					c:EST = { owns_entire_state_region = STATE_TALINN }
+				}
+				AND = {
+					NOT = { exists = c:UBD }
+					NOT = { exists = c:EST }
+					exists = c:RUS
+					this = c:RUS
+					c:RUS = { owns_entire_state_region = STATE_TALINN }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1851.1.1
+		latest_usage_date = 1882.1.1
+		chance = 75
+	}
+}

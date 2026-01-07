@@ -188,6 +188,425 @@ fin_admiral_toppelius = {
 		chance = 75
 	}
 }
-
+fin_general_nenonen = {
+	first_name = vilho_petter
+	last_name = nenonen
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1883.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+fin_general_ignatius = {
+	first_name = hannes
+	last_name = ignatius
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1871.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1910.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+fin_general_laatikainen = {
+	first_name = taavetti
+	last_name = laatikainen
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1886.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+fin_general_mexmontan = {
+	first_name = nikolaj
+	last_name = mexmontan
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1860.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1935.1.1
+		chance = 75
+	}
+}
+fin_general_schauman = {
+	first_name = theodor
+	last_name = schauman
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1849.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+fin_general_stewen_steinheil = {
+	first_name = alexander
+	last_name = stewen_steinheil
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1783.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1860.1.1
+		chance = 75
+	}
+}
+fin_general_von_daehn = {
+	first_name = johan_jakob
+	last_name = von_daehn
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1785.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1860.1.1
+		chance = 75
+	}
+}
+fin_general_munck = {
+	first_name = johan_reinhold
+	last_name = munck
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1795.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+fin_general_aminoff = {
+	first_name = adolf
+	last_name = aminoff
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1806.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1842.1.1
+		latest_usage_date = 1872.1.1
+		chance = 75
+	}
+}
+fin_general_von_kothen = {
+	first_name = gustaf
+	last_name = von_kothen
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1808.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1845.1.1
+		latest_usage_date = 1874.1.1
+		chance = 75
+	}
+}
+fin_general_af_forselles = {
+	first_name = edvard
+	last_name = af_forselles
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1817.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1856.1.1
+		latest_usage_date = 1888.1.1
+		chance = 75
+	}
+}
+fin_general_alopaeus = {
+	first_name = fredrik
+	last_name = alopaeus
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1810.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1845.1.1
+		latest_usage_date = 1875.1.1
+		chance = 75
+	}
+}
+fin_general_furuhjelm = {
+	first_name = vladimir
+	last_name = furuhjelm
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1819.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1854.1.1
+		latest_usage_date = 1885.1.1
+		chance = 75
+	}
+}
+fin_general_von_alfthan = {
+	first_name = georg
+	last_name = von_alfthan
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1828.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1864.1.1
+		latest_usage_date = 1894.1.1
+		chance = 75
+	}
+}
+fin_general_grenqvist = {
+	first_name = fredrik_leopold
+	last_name = grenqvist
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1821.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1856.1.1
+		latest_usage_date = 1886.1.1
+		chance = 75
+	}
+}
+fin_general_von_ammondt = {
+	first_name = edvard_reinhold
+	last_name = von_ammondt
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1832.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1869.1.1
+		latest_usage_date = 1900.1.1
+		chance = 75
+	}
+}
+fin_general_bonsdorff = {
+	first_name = georg_hugo
+	last_name = bonsdorff
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1844.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+fin_general_von_kothen2 = {
+	first_name = gustaf_axel
+	last_name = von_kothen
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1843.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+fin_general_borgenstrom = {
+	first_name = knut
+	last_name = borgenstrom
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1851.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1887.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+fin_general_charpentier = {
+	first_name = claes
+	last_name = charpentier
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1851.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1888.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+fin_general_gripenberg = {
+	first_name = oskar
+	last_name = gripenberg
+	historical = yes
+	culture = cu:finnish
+	female = no
+	birth_date = 1838.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:FIN ?= this
+            c:SCA ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1875.1.1
+		latest_usage_date = 1905.1.1
+		chance = 75
+	}
+}
 
 

@@ -125,3 +125,423 @@ rom_general_budisteanu = {
 		chance = 75
 	}
 }
+rom_general_boteanu = {
+	first_name = emanoil
+	last_name = boteanu
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1836.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1871.1.1
+		latest_usage_date = 1901.1.1
+		chance = 75
+	}
+}
+rom_general_dimitrescu_maican = {
+	first_name = nicolae
+	last_name = dimitrescu_maican
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1846.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1881.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+rom_general_dumitrescu = {
+	first_name = petre
+	last_name = dumitrescu
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+rom_general_iacobici = {
+	first_name = iosif
+	last_name = iacobici
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1884.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+rom_general_vladescu = {
+	first_name = ioan
+	last_name = vladescu
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1870.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+rom_general_olteanu = {
+	first_name = marcel
+	last_name = olteanu
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1872.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+rom_general_grigorescu = {
+	first_name = eremia
+	last_name = grigorescu
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1863.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1897.1.1
+		latest_usage_date = 1930.1.1
+		chance = 75
+	}
+}
+rom_general_iliescu = {
+	first_name = dumitru
+	last_name = iliescu
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1865.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1930.1.1
+		chance = 75
+	}
+}
+rom_general_lecca = {
+	first_name = dimitrie
+	last_name = lecca
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1832.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1866.1.1
+		latest_usage_date = 1896.1.1
+		chance = 75
+	}
+}
+rom_general_adrian = {
+	first_name = gheorghe
+	last_name = adrian
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1820.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1855.1.1
+		latest_usage_date = 1885.1.1
+		chance = 75
+	}
+}
+rom_general_manu = {
+	first_name = savel
+	last_name = manu
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1824.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1859.1.1
+		latest_usage_date = 1889.1.1
+		chance = 75
+	}
+}
+rom_admiral_murgescu = {
+	first_name = ioan
+	last_name = murgescu
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1846.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = admiral
+		earliest_usage_date = 1881.1.1
+		latest_usage_date = 1911.1.1
+		chance = 75
+	}
+}
+rom_admiral_niculescu_rizea = {
+	first_name = constantin
+	last_name = niculescu_rizea
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1870.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = admiral
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1935.1.1
+		chance = 75
+	}
+}
+rom_admiral_koslinski = {
+	first_name = emanoil
+	last_name = koslinski
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1853.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = admiral
+		earliest_usage_date = 1882.1.1
+		latest_usage_date = 1912.1.1
+		chance = 75
+	}
+}
+rom_admiral_sebastian = {
+	first_name = eustatiu
+	last_name = sebastian
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1856.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = admiral
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+rom_admiral_balescu = {
+	first_name = constantin
+	last_name = balescu
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1864.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = admiral
+		earliest_usage_date = 1899.1.1
+		latest_usage_date = 1930.1.1
+		chance = 75
+	}
+}
+rom_admiral_scodrea = {
+	first_name = vasile
+	last_name = scodrea
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1872.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = admiral
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1935.1.1
+		chance = 75
+	}
+}
+rom_admiral_barbuneanu = {
+	first_name = petre
+	last_name = barbuneanu
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1881.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+rom_admiral_rosca = {
+	first_name = eugeniu
+	last_name = rosca
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1881.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+rom_admiral_coanda = {
+	first_name = ion
+	last_name = coanda
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1860.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = admiral
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}
+rom_admiral_urseanu = {
+	first_name = vasile
+	last_name = urseanu
+	historical = yes
+	culture = cu:romanian
+	female = no
+	birth_date = 1848.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:WAL ?= this
+            c:ROM ?= this
+    }
+}
+		role = admiral
+		earliest_usage_date = 1881.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}

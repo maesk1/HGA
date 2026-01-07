@@ -125,3 +125,243 @@ ser_general_sturm = {
 		chance = 75
 	}
 }
+ser_general_misic = {
+	first_name = zivojin
+	last_name = misic
+	historical = yes
+	culture = cu:serb
+	female = no
+	birth_date = 1855.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:SER ?= this
+            c:YUG ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+ser_general_pesic = {
+	first_name = petar
+	last_name = pesic
+	historical = yes
+	culture = cu:serb
+	female = no
+	birth_date = 1871.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:SER ?= this
+            c:YUG ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+ser_general_smiljanic = {
+	first_name = krsta
+	last_name = smiljanic
+	historical = yes
+	culture = cu:serb
+	female = no
+	birth_date = 1868.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:SER ?= this
+            c:YUG ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1903.1.1
+		latest_usage_date = 1938.1.1
+		chance = 75
+	}
+}
+ser_general_kalafatovic = {
+	first_name = danilo
+	last_name = kalafatovic
+	historical = yes
+	culture = cu:serb
+	female = no
+	birth_date = 1875.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:SER ?= this
+            c:YUG ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1905.1.1
+		latest_usage_date = 1940.1.1
+		chance = 75
+	}
+}
+ser_general_kosic = {
+	first_name = petar
+	last_name = kosic
+	historical = yes
+	culture = cu:serb
+	female = no
+	birth_date = 1881.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:SER ?= this
+            c:YUG ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+ser_general_nedic = {
+	first_name = milutin
+	last_name = nedic
+	historical = yes
+	culture = cu:serb
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:SER ?= this
+            c:YUG ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+ser_general_bozanovic = {
+	first_name = milos
+	last_name = bozanovic
+	historical = yes
+	culture = cu:serb
+	female = no
+	birth_date = 1863.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:SER ?= this
+            c:YUG ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1897.1.1
+		latest_usage_date = 1930.1.1
+		chance = 75
+	}
+}
+ser_general_grujic = { #Пантелија Грујић
+	first_name = pantelija
+	last_name = grujic
+	historical = yes
+	culture = cu:serb
+	female = no
+	birth_date = 1866.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:SER ?= this
+            c:YUG ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1900.1.1
+		latest_usage_date = 1930.1.1
+		chance = 75
+	}
+}
+ser_general_lesjanin = {
+	first_name = milojko
+	last_name = lesjanin
+	historical = yes
+	culture = cu:serb
+	female = no
+	birth_date = 1830.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:SER ?= this
+            c:YUG ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1865.1.1
+		latest_usage_date = 1895.1.1
+		chance = 75
+	}
+}
+ser_general_nikolic = {
+	first_name = tihomilj
+	last_name = nikolic
+	historical = yes
+	culture = cu:serb
+	female = no
+	birth_date = 1832.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:SER ?= this
+            c:YUG ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1867.1.1
+		latest_usage_date = 1895.1.1
+		chance = 75
+	}
+}
+ser_general_alimpic = {
+	first_name = ranko
+	last_name = alimpic
+	historical = yes
+	culture = cu:serb
+	female = no
+	birth_date = 1826.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:SER ?= this
+            c:YUG ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1860.1.1
+		latest_usage_date = 1890.1.1
+		chance = 75
+	}
+}
+ser_general_blaznavac = {
+	first_name = milivoj
+	last_name = blaznavac
+	historical = yes
+	culture = cu:serb
+	female = no
+	birth_date = 1824.1.1
+	commander_usage = {
+    country_trigger = {
+        OR = {
+            c:SER ?= this
+            c:YUG ?= this
+    }
+}
+		role = general
+		earliest_usage_date = 1858.1.1
+		latest_usage_date = 1888.1.1
+		chance = 75
+	}
+}

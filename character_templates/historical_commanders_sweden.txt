@@ -1285,7 +1285,43 @@ swe_admiral_riben = {
 		chance = 75
 	}
 }
+swe_general_thornell = {
 
+	first_name = olof
+	last_name = thornell
+	historical = yes
+	culture = cu:swedish
+	female = no
+	birth_date = 1877.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = { c:SWE ?= this c:SCA ?= this }
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+swe_general_af_klercker = {
+
+	first_name = ernst
+	last_name = af_klercker
+	historical = yes
+	culture = cu:swedish
+	female = no
+	birth_date = 1881.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = { c:SWE ?= this c:SCA ?= this }
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
 
 
 

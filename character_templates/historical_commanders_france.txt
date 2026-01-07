@@ -957,3 +957,458 @@ fra_admiral_cuverville = {
 		chance = 75
 	}
 }
+fra_admiral_merveilleux_du_vignaux = {
+	first_name = jean
+	last_name = merveilleux_du_vignaux
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1865.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}
+
+fra_admiral_lacaze = {
+	first_name = lucien
+	last_name = lacaze
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1860.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1894.1.1
+		latest_usage_date = 1930.1.1
+		chance = 75
+	}
+}
+
+fra_admiral_bienaime = {
+	first_name = amedee
+	last_name = bienaime
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1843.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1870.1.1
+		latest_usage_date = 1910.1.1
+		chance = 75
+	}
+}
+
+fra_admiral_de_jonquieres = {
+	first_name = eugene
+	last_name = de_jonquieres
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1850.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+fra_general_michel = {
+	first_name = victor_constant
+	last_name = michel
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1850.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+fra_general_graziani = {
+	first_name = jean_cesar
+	last_name = graziani
+	historical = yes
+	culture = cu:corsican
+	female = no
+	birth_date = 1859.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1892.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}
+
+fra_general_pretelat = {
+	first_name = andre_gaston
+	last_name = pretelat
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1874.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+fra_general_georges = {
+	first_name = alphonse_joseph
+	last_name = georges
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1875.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+fra_general_gamelin = {
+	first_name = maurice
+	last_name = gamelin
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1872.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+fra_general_altmayer  = {
+	first_name = robert
+	last_name = altmayer
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1875.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+fra_general_frere  = {
+	first_name = aubert
+	last_name = frere
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1882.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+fra_admiral_abrial = {
+	first_name = jean_marie_charles
+	last_name = abrial
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1879.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+fra_admiral_de_laborde = {
+	first_name = jean
+	last_name = de_laborde
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1878.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+fra_admiral_darlan = {
+	first_name = francois
+	last_name = darlan
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1881.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+fra_general_herbillon  = {
+	first_name = emile
+	last_name = herbillon
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1794.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1838.1.1
+		latest_usage_date = 1866.1.1
+		chance = 75
+	}
+}
+
+fra_general_changarnier = {
+	first_name = nicolas
+	last_name = changarnier
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1793.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1837.1.1
+		latest_usage_date = 1870.1.1
+		chance = 75
+	}
+}
+
+fra_general_baraguey_d_hilliers = {
+	first_name = achille
+	last_name = baraguey_d_hilliers
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1795.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1875.1.1
+		chance = 75
+	}
+}
+
+fra_general_vinoy = {
+	first_name = joseph
+	last_name = vinoy
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1803.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1838.1.1
+		latest_usage_date = 1878.1.1
+		chance = 75
+	}
+}
+
+fra_general_vincendon = {
+	first_name = joseph
+	last_name = vincendon
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1833.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = general
+		earliest_usage_date = 1859.1.1
+		latest_usage_date = 1898.1.1
+		chance = 75
+	}
+}
+
+fra_admiral_parseval_deschenes = {
+	first_name = alexandre_ferdinand
+	last_name = parseval_deschenes
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1790.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+
+fra_admiral_du_petit_thouars = {
+	first_name = abel_aubert
+	last_name = du_petit_thouars
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1793.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1835.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+
+fra_admiral_hamelin = {
+	first_name = ferdinand_alphonse
+	last_name = hamelin
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1796.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1839.1.1
+		latest_usage_date = 1870.1.1
+		chance = 75
+	}
+}
+
+fra_admiral_dubourdieu = {
+	first_name = louis
+	last_name = dubourdieu
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1802.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1872.1.1
+		chance = 75
+	}
+}
+
+fra_admiral_roze = {
+	first_name = pierre_gustave
+	last_name = roze
+	historical = yes
+	culture = cu:french
+	female = no
+	birth_date = 1812.1.1
+	commander_usage = {
+		country_trigger = {
+			exists = c:FRA
+			this = c:FRA
+		}
+		role = admiral
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1878.1.1
+		chance = 75
+	}
+}

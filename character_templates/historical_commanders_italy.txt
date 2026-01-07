@@ -1250,3 +1250,828 @@ sar_admiral_viale = {
 		chance = 75
 	}
 }
+sic_admiral_bucci = {
+
+	first_name = umberto
+	last_name = bucci
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1877.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+sar_admiral_cavagnari = {
+
+	first_name = domenico
+	last_name = cavagnari
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1876.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1918.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+sar_general_cavallero = {
+
+	first_name = ugo
+	last_name = cavallero
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1880.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+sar_general_ambrosio = {
+
+	first_name = vittorio
+	last_name = ambrosio
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1879.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+sar_general_cadorna2 = {
+
+	first_name = luigi
+	last_name = cadorna
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1850.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+sic_general_diaz = {
+
+	first_name = armando
+	last_name = diaz
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1861.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1930.1.1
+		chance = 75
+	}
+}
+
+sar_general_albricci = {
+
+	first_name = alberico
+	last_name = albricci
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1864.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1935.1.1
+		chance = 75
+	}
+}
+
+sic_admiral_avallone = {
+
+	first_name = carlo
+	last_name = avallone
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1850.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1880.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+sar_admiral_resbitero = {
+
+	first_name = rnesto
+	last_name = resbitero
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1855.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+sar_admiral_sirianni = {
+
+	first_name = giuseppe
+	last_name = sirianni
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1874.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1895.1.1
+		latest_usage_date = 1935.1.1
+		chance = 75
+	}
+}
+
+sic_general_mezzacapo = {
+
+	first_name = luigi
+	last_name = mezzacapo
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1814.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1885.1.1
+		chance = 75
+	}
+}
+
+sic_general_cosenz = {
+
+	first_name = enrico
+	last_name = cosenz
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1820.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1893.1.1
+		chance = 75
+	}
+}
+
+sic_general_afan_de_rivera = {
+
+	first_name = achille
+	last_name = afan_de_rivera
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1842.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1873.1.1
+		latest_usage_date = 1905.1.1
+		chance = 75
+	}
+}
+
+sic_general_geloso = {
+
+	first_name = carlo
+	last_name = geloso
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1879.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1920.1.1
+		latest_usage_date = 1950.1.1
+		chance = 75
+	}
+}
+
+sic_admiral_scrugli = {
+
+	first_name = napoleone
+	last_name = scrugli
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1803.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1881.1.1
+		chance = 75
+	}
+}
+
+sic_general_accinni = {
+
+	first_name = enrico
+	last_name = accinni
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1838.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1870.1.1
+		latest_usage_date = 1905.1.1
+		chance = 75
+	}
+}
+
+sar_general_saccozzi = {
+
+	first_name = agostino
+	last_name = saccozzi
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1790.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SAR
+					this = c:SAR
+				}
+				AND = {
+					NOT = { exists = c:SAR }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1833.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+
+sic_general_ruffo_di_bagnara = {
+
+	first_name = paolo
+	last_name = ruffo_di_bagnara
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1791.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:SIC
+					this = c:SIC
+				}
+				AND = {
+					NOT = { exists = c:SIC }
+					exists = c:ITA
+					this = c:ITA
+					c:ITA = { owns_entire_state_region = STATE_SICILY }
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1832.1.1
+		latest_usage_date = 1865.1.1
+		chance = 75
+	}
+}
+
+sar_general_ansaldi = {
+
+	first_name = giorgio
+	last_name = ansaldi
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1795.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SAR this = c:SAR }
+				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+			}
+		}
+		role = general
+		earliest_usage_date = 1843.1.1
+		latest_usage_date = 1875.1.1
+		chance = 75
+	}
+}
+
+sic_general_pinelli = {
+
+	first_name = ferdinando_augusto
+	last_name = pinelli
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1810.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SIC this = c:SIC }
+				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_SICILY } }
+			}
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1880.1.1
+		chance = 75
+	}
+}
+
+sar_general_carenzi = {
+
+	first_name = francesco
+	last_name = carenzi
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1837.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SAR this = c:SAR }
+				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+			}
+		}
+		role = general
+		earliest_usage_date = 1872.1.1
+		latest_usage_date = 1900.1.1
+		chance = 75
+	}
+}
+
+sic_general_casella = {
+
+	first_name = francesco_angelo
+	last_name = casella
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1781.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SIC this = c:SIC }
+				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_SICILY } }
+			}
+		}
+		role = general
+		earliest_usage_date = 1830.1.1
+		latest_usage_date = 1862.1.1
+		chance = 75
+	}
+}
+
+sic_general_beneventano_del_bosco = {
+
+	first_name = ferdinando
+	last_name = beneventano_del_bosco
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1813.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SIC this = c:SIC }
+				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_SICILY } }
+			}
+		}
+		role = general
+		earliest_usage_date = 1849.1.1
+		latest_usage_date = 1881.1.1
+		chance = 75
+	}
+}
+
+sic_general_pianell = {
+
+	first_name = giuseppe_salvatore
+	last_name = pianell
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1818.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SIC this = c:SIC }
+				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_SICILY } }
+			}
+		}
+		role = general
+		earliest_usage_date = 1855.1.1
+		latest_usage_date = 1887.1.1
+		chance = 75
+	}
+}
+
+sic_general_acquaviva = {
+
+	first_name = luigi
+	last_name = acquaviva
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1812.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SIC this = c:SIC }
+				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_SICILY } }
+			}
+		}
+		role = general
+		earliest_usage_date = 1849.1.1
+		latest_usage_date = 1885.1.1
+		chance = 75
+	}
+}
+
+sic_general_afan_de_rivera = {
+
+	first_name = achille
+	last_name = afan_de_rivera
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1842.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SIC this = c:SIC }
+				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_SICILY } }
+			}
+		}
+		role = general
+		earliest_usage_date = 1875.1.1
+		latest_usage_date = 1905.1.1
+		chance = 75
+	}
+}
+
+sic_general_berardi = {
+
+	first_name = gabriele
+	last_name = berardi
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1861.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SIC this = c:SIC }
+				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_SICILY } }
+			}
+		}
+		role = general
+		earliest_usage_date = 1893.1.1
+		latest_usage_date = 1925.1.1
+		chance = 75
+	}
+}
+
+sar_general_bruti = {
+
+	first_name = bruto
+	last_name = bruti
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	birth_date = 1835.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SAR this = c:SAR }
+				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+			}
+		}
+		role = general
+		earliest_usage_date = 1869.1.1
+		latest_usage_date = 1915.1.1
+		chance = 75
+	}
+}
+
+sic_general_carbone = {
+
+	first_name = domenico
+	last_name = carbone
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1854.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SIC this = c:SIC }
+				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_SICILY } }
+			}
+		}
+		role = general
+		earliest_usage_date = 1881.1.1
+		latest_usage_date = 1920.1.1
+		chance = 75
+	}
+}
+
+sar_general_cugia = {
+
+	first_name = efisio
+	last_name = cugia
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1818.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SAR this = c:SAR }
+				AND = { NOT = { exists = c:SAR } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_PIEDMONT } }
+			}
+		}
+		role = general
+		earliest_usage_date = 1855.1.1
+		latest_usage_date = 1875.1.1
+		chance = 75
+	}
+}
+
+sic_general_fineschi = {
+
+	first_name = lorenzo
+	last_name = fineschi
+	historical = yes
+	culture = cu:south_italian
+	female = no
+	birth_date = 1874.1.1
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { exists = c:SIC this = c:SIC }
+				AND = { NOT = { exists = c:SIC } exists = c:ITA this = c:ITA c:ITA = { owns_entire_state_region = STATE_SICILY } }
+			}
+		}
+		role = general
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1935.1.1
+		chance = 75
+	}
+}
